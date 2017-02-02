@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+    	 <!-- Opportunities Form View -->
+        <record model="ir.ui.view" id="crm.crm_case_form_view_oppor">
+            <field name="name">Opportunities</field>
+            <field name="model">crm.lead</field>
+            <field name="priority">20</field>
+            <field name="arch" type="xml">
+                <form string="Opportunities" version="7.0">
+                    <header>
+                        <button name="case_mark_won" string="Areas internas" type="object"
+                                states="pending" class="oe_highlight"/>
+						<button name="case_secretary" string="Secretaria" type="object"
+                                states="draft" class="oe_highlight"/>
+                        <button name="case_president" string="Presidente" type="object"
+                                states="open" class="oe_highlight"/>
+                        <field name="stage_id" widget="statusbar" clickable="True" 
+                        	domain="['&amp;', '|', ('case_default', '=', True), ('section_ids', '=', section_id), '|', ('type', '=', type), ('type', '=', 'both')]"
+                            on_change="onchange_stage_id(stage_id)"/>
+                        <field name="state" invisible="1" />
+                    </header>
+                    <sheet>
+                        <div class="oe_right oe_button_box">
+                            <button string="Schedule/Log Call"
+                                name="%(crm.opportunity2phonecall_act)d"
+                                type="action"/>
+                            <button string="Meeting"
+                                name="action_makeMeeting"
+                                type="object" />
+                        </div>
+                        <div class="oe_title">
+                            <label for="name" string="Nro. Tramite" class="oe_edit_only"/>
+                            <h1><field name="name"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                            	<field name="date_action" string="Fecha de recepcion"/>
+                            	<field name="title_action" string="Nro. Hojas"/>
+								<field name="partner_id"
+                                    on_change="onchange_partner_id(partner_id)"
+                                    string="Customer" />
+                            	<field name="organization_position" />
+                            	<field name="user_id" readonly="1"/>
+                            	<field name="section_id" invisible="1"/>
+                            </group>
+                            <group>
+                            	<field name="relevant"/>
+                            </group>
+                        </group>
+                        <group>
+                            <group>
+                            	<field name="description" string="Asunto"/>
+                            </group>
+                            <group>
+                            	<field name="additional_information" string="Observaciones"/>
+                            </group>
+						</group>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+	</data>
+</openerp>

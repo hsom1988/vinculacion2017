@@ -1,0 +1,133 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* fleet_enhancements, trescloud_fleet_enhancements
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-04 15:58+0000\n"
+"PO-Revision-Date: 2017-01-04 15:58+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: view:control.equipment:0
+#: field:control.equipment,project_id:0
+#: field:fleet.vehicle.log.fuel,project_id:0
+#: model:ir.model,name:fleet_enhancements.model_project_project
+#: field:project.line,project_id:0
+#: view:work.order:0
+#: field:work.order,project_id:0
+#: view:control.equipment:0
+#: view:fleet.vehicle.log.fuel:0
+msgid "Project"
+msgstr "Proyecto / Campamento"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: model:ir.model,name:fleet_enhancements.model_fleet_vehicle_log_fuel
+#: model:ir.model,name:trescloud_fleet_enhancements.model_fleet_vehicle_log_fuel
+msgid "Fuel log for vehicles"
+msgstr "Registro de combustible para los equipos"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: field:fleet.vehicle.log.fuel,external:0
+#: view:fleet.vehicle.log.fuel:0
+msgid "External"
+msgstr "Externo"
+
+#. module: trescloud_fleet_enhancements
+#: view:fleet.vehicle.log.fuel:0
+msgid "{'readonly': [('external','=',False)]}"
+msgstr "{'readonly': [('external','=',False)]}"
+
+#. module: trescloud_fleet_enhancements
+#: field:tasks.done,start_date:0
+msgid "Start Date"
+msgstr "Hora de inicio"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: view:control.equipment:0
+#: field:control.equipment,driver_id:0
+#: view:fleet.vehicle:0
+#: view:fleet.vehicle.odometer:0
+#: view:work.order:0
+#: field:work.order,driver_id:0
+#: view:control.equipment:0
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: trescloud_fleet_enhancements
+#: model:ir.model,name:trescloud_fleet_enhancements.model_tasks_done
+msgid "tasks.done"
+msgstr "tasks.done"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: model:ir.model,name:fleet_enhancements.model_camp
+#: model:ir.model,name:fleet_enhancements.model_control_equipment
+#: model:ir.model,name:fleet_enhancements.model_notification_matrix
+#: model:ir.model,name:fleet_enhancements.model_priority
+#: model:ir.model,name:fleet_enhancements.model_routine_work
+#: model:ir.model,name:fleet_enhancements.model_task
+#: model:ir.model,name:fleet_enhancements.model_type_equipment
+#: model:ir.model,name:fleet_enhancements.model_work_order
+#: model:ir.model,name:trescloud_fleet_enhancements.model_control_equipment
+msgid "Email Thread"
+msgstr "Hilo de mensajes"
+
+#. module: trescloud_fleet_enhancements
+#: view:fleet.vehicle.log.fuel:0
+msgid "No External(Internal)"
+msgstr "No Externo(Interno)"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: help:control.equipment.line,control_equipment_id:0
+#: help:tasks.done,control_equipment_id:0
+msgid "This field defines that control equipment belongs the novelty"
+msgstr "Este campo define que control de equipo pertence a la novedad"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: view:control.equipment:0
+#: field:control.equipment,control_date:0
+#: view:control.equipment:0
+msgid "Control date"
+msgstr "Fecha de control"
+
+#. module: trescloud_fleet_enhancements
+#: field:tasks.done,end_date:0
+msgid "End Date"
+msgstr "Hora de fin"
+
+#. module: trescloud_fleet_enhancements
+#: view:control.equipment:0
+#: field:control.equipment,tasks_done_ids:0
+#: field:tasks.done,name:0
+msgid "Tasks Done"
+msgstr "Trabajos Realizados"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: view:control.equipment:0
+#: field:control.equipment,vehicle_id:0
+#: view:fleet.vehicle.cost:0
+#: view:fleet.vehicle.log.fuel:0
+#: view:fleet.vehicle.odometer:0
+#: field:project.line,vehicle_id:0
+#: field:project.project,project_line_ids:0
+#: view:work.order:0
+#: field:work.order,vehicle_id:0
+#: view:control.equipment:0
+msgid "Equipment"
+msgstr "Equipo"
+
+#. modules: trescloud_fleet_enhancements, fleet_enhancements
+#: field:control.equipment.line,control_equipment_id:0
+#: field:control.equipment.line.maintenance,control_equipment_id:0
+#: field:tasks.done,control_equipment_id:0
+msgid "Control equipment"
+msgstr "Control de equipo"
+
+
