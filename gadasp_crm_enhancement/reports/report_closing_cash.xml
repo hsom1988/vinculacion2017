@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+	
+	    <!-- !!!!!!!!!!!!!!!!!!!!!!!!! TICKET REPORT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+		<record id="ticket_report" model="ir.actions.report.xml">
+			<field name="name">REPORTE TICKET</field>
+			<field name="type">ir.actions.report.xml</field>
+			<field name="model">crm.lead</field>
+			<field name="report_name">ticket_report</field>
+			<field name="report_type">aeroo</field>
+			<field name="tml_source">file</field>
+			<field name="in_format">oo-odt</field>
+			<field name="out_format" eval="ref('report_aeroo_ooo.report_mimetypes_pdf_odt')"/>
+			<field name="process_sep" eval="0"/>
+			<field name="report_rml">gadasp_crm_enhancement/reports/ticket_report.odt</field>
+			<field name="parser_state">default</field>
+			<field name="tml_source">file</field>
+		</record>
+		
+		<record id="ir_values_crm_lead_report" model="ir.values">
+			<field name="name">ticket_report</field>
+			<field name="key2">client_print_multi</field>
+			 <field name="value" eval="'ir.actions.report.xml,%s' % ref('ticket_report')"/>
+			<field name="key">action</field>
+			<field name="model">crm.lead</field>
+		</record>
+	
+	</data>
+</openerp>

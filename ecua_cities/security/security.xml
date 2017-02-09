@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+    	
+    <!--Category-->    
+    <delete model="ir.module.category" id="module_category_ecua_cities"/>  
+     
+    <!-- Groups -->
+    
+    <!--Manager City -->
+    <delete model="res.groups" id="group_manager_city"/>
+           
+    </data>
+</openerp>

@@ -22,7 +22,7 @@
 from openerp.addons.base_status.base_stage import base_stage
 import crm
 from datetime import datetime
-from operator import itemgetter
+from dateutil.relativedelta import relativedelta
 from openerp.osv import fields, osv, orm
 import time
 from openerp import SUPERUSER_ID
@@ -32,34 +32,127 @@ from openerp.tools import html2plaintext
 
 from base.res.res_partner import format_address
 
+AVAILABLE_STATES = [
+    ('draft', u'Recepción'),
+    ('open', u'Análisis y reasignación'),
+    ('president', 'Presidencia'),
+    ('draft_post','Borrador'),
+    ('send_post', 'Enviados'),
+    ('received_post', 'Recibidos'),
+    ('done', 'Respuesta'),
+    ('cancel', 'Negado'),
+]
+
 class crm_lead(osv.osv):
     """ CRM Lead Case """
     _inherit = "crm.lead"
     
+    def create(self, cr, uid, vals, context=None):
+        vals = vals or {}
+        vals['name'] = self.pool.get('ir.sequence').get(cr, uid, 'crm.lead') or '/'
+        return super(crm_lead,self).create(cr, uid, vals, context)
+    
     def case_secretary(self, cr, uid, ids, context=None):
         """ Mark the case as won: state=done and probability=100 """
         for lead in self.browse(cr, uid, ids):
-            stage_id = self.stage_find(cr, uid, [lead], lead.section_id.id or False, [('probability', '=', 50.0),('on_change','=',True)], context=context)
-            if stage_id:
-                self.case_set(cr, uid, [lead.id], values_to_update={'probability': 50.0}, new_stage_id=stage_id, context=context)
+            lead.write({'state': 'open'})
         return True
     
     def case_president(self, cr, uid, ids, context=None):
         """ Mark the case as won: state=done and probability=100 """
         for lead in self.browse(cr, uid, ids):
-            stage_id = self.stage_find(cr, uid, [lead], lead.section_id.id or False, [('probability', '=', 75.0),('on_change','=',True)], context=context)
-            if stage_id:
-                self.case_set(cr, uid, [lead.id], values_to_update={'probability': 75.0}, new_stage_id=stage_id, context=context)
+            lead.write({'state': 'president'})
         return True
+    
+    def case_denied(self, cr, uid, ids, context=None):
+        """ Mark the case as won: state=done and probability=100 """
+        for lead in self.browse(cr, uid, ids):
+            lead.write({'state': 'cancel'})
+        return True
+    
+    def case_approved(self, cr, uid, ids, context=None):
+        """ Mark the case as won: state=done and probability=100 """
+        for lead in self.browse(cr, uid, ids):
+            lead.write({'state': 'draft_post'})
+        return True
+    
+    def case_send(self, cr, uid, ids, context=None):
+        """ Mark the case as won: state=done and probability=100 """
+        for lead in self.browse(cr, uid, ids):
+            lead.write({'state': 'send_post'})
+        return True
+    
+    def case_received(self, cr, uid, ids, context=None):
+        """ Mark the case as won: state=done and probability=100 """
+        for lead in self.browse(cr, uid, ids):
+            lead.write({'state': 'received_post'})
+        return True
+    
+    def case_ended(self, cr, uid, ids, context=None):
+        """ Mark the case as won: state=done and probability=100 """
+        for lead in self.browse(cr, uid, ids):
+            lead.write({'state': 'done'})
+        return True
+    
+    def action_send_response(self, cr, uid, ids, context=None):
+        assert len(ids) == 1, 'This option should only be used for a single id at a time.'
+        ir_model_data = self.pool.get('ir.model.data')
+        try:
+            template_id = ir_model_data.get_object_reference(cr, uid, 'sale', 'email_template_edi_crm_lead')[1]
+        except ValueError:
+            template_id = False
+        try:
+            compose_form_id = ir_model_data.get_object_reference(cr, uid, 'mail', 'email_compose_message_wizard_form')[1]
+        except ValueError:
+            compose_form_id = False 
+        ctx = dict(context)
+        ctx.update({
+            'default_model': 'crm.lead',
+            'default_res_id': ids[0],
+            'default_use_template': bool(template_id),
+            'default_template_id': template_id,
+            'default_composition_mode': 'comment',
+            'mark_so_as_sent': True
+        })
+        return {
+            'type': 'ir.actions.act_window',
+            'view_type': 'form',
+            'view_mode': 'form',
+            'res_model': 'mail.compose.message',
+            'views': [(compose_form_id, 'form')],
+            'view_id': compose_form_id,
+            'target': 'new',
+            'context': ctx,
+        }
 
     _columns = {
-        'organization_position': fields.char('Cargo'),
+        'name': fields.char("No. Tramite"),
         'description': fields.text('Notes'),
         'oficio_number': fields.char('Oficio Nro.'),
         'additional_information': fields.text('Observaciones'),
-        'date_open': fields.datetime('Opened', readonly=True),
+        'date_open': fields.datetime('Fecha de recepcion',),
+        'date_max_resp': fields.datetime('Fecha max. de respuesta',),
         'relevant': fields.boolean('Es Relevante?'),
+        'phonecall_ids': fields.one2many('crm.phonecall', 'opportunity_id', u'LLamadas Telefónicas'),
+        'external': fields.boolean('Es Externo?'),
+        'area_id': fields.many2one('res.area', u'Área'),
+        'urgente': fields.boolean('Urgente'),
+        'state': fields.selection(AVAILABLE_STATES, "Status", readonly=True, select=True,
+                help='The Status is set to \'Draft\', when a case is created.'
+                ' If the case is in progress the Status is set to \'Open\'. '
+                'When the case is over, the Status is set to \'Done\'. If the'
+                ' case needs to be reviewed then the Status is  set to \'Pending\'.'),
+        'asunto': fields.char('Asunto'),
+        'header': fields.text('Cabecera'),
+        'body': fields.text('Cuerpo'),
+        'footer': fields.text(u'Pie de Página'),
     }
+    
+    _defaults = {
+        'date_open': lambda *a:datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        'date_max_resp': lambda *a: (datetime.now()+relativedelta(days=8)).strftime('%Y-%m-%d %H:%M:%S'),
+        'state': 'draft',
+        }
 
 crm_lead()
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

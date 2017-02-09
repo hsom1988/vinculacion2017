@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<openerp>
+   <data>
+ 		<!--
+        vista para city
+        -->
+       
+  <record id="view_city_tree" model="ir.ui.view">
+            <field name="name">res.city.tree</field>
+            <field name="model">res.city</field>
+             <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="City">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="state_id"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="view_city_form" model="ir.ui.view">
+            <field name="name">res.city.form</field>
+            <field name="model">res.city</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="City" version="7.0">
+                    <group>
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="state_id"/>
+                        <field name="active"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        <record id="view_res_city_action" model="ir.actions.act_window">
+            <field name="name">Cities</field>
+            <field name="res_model">res.city</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+            Click to define a new city.
+            </p><p></p>
+            If you are working on the Ecuadorian market, you can manage the different Cities you are working on from here. Each city is attached to one state.
+            </field>
+        </record>
+        
+        <menuitem name="Cities" id="city_menu" action="view_res_city_action" sequence="3" parent="base.menu_localisation"/>   
+        
+          </data>
+     </openerp>        

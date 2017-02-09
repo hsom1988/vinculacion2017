@@ -12,14 +12,21 @@
                     ''',
     'depends'     :[
                     'base',
+                    'document',
                     'crm',
+                    'report_aeroo_ooo'
     ],
     'update_xml'  :[
-                    #SEGURIDAD
-                    #'security/ir.model.access.csv',
-                    #Views
+                    # Seguridad
+                    'security/ir.model.access.csv',
+                    # Vistas
                     'views/crm_lead_view.xml',
                     'views/res_partner_view.xml',
+                    # Data
+                    'data/crm_email_data.xml',
+                    'data/crm_sequence.xml',
+                    # Reportes
+                    'reports/report_closing_cash.xml',
     ],
     'auto_install': False,
     'installable' : True

@@ -1,0 +1,1042 @@
+id,code,name,zone_id/id
+res_parish_ec_1,01,Concepción,ecua_cities.res_zone_ec_1
+res_parish_ec_2,02,Cochapamba,ecua_cities.res_zone_ec_1
+res_parish_ec_3,03,Kennedy,ecua_cities.res_zone_ec_1
+res_parish_ec_4,04,El Inca,ecua_cities.res_zone_ec_1
+res_parish_ec_5,05,Jipijapa,ecua_cities.res_zone_ec_1
+res_parish_ec_6,06,Belisario Quevedo,ecua_cities.res_zone_ec_1
+res_parish_ec_7,07,Rumipamba,ecua_cities.res_zone_ec_1
+res_parish_ec_8,08,Iñaquito,ecua_cities.res_zone_ec_1
+res_parish_ec_9,09,Mariscal Sucre,ecua_cities.res_zone_ec_1
+res_parish_ec_10,10,Nayón,ecua_cities.res_zone_ec_1
+res_parish_ec_11,11,Zámbiza,ecua_cities.res_zone_ec_1
+res_parish_ec_12,01,Centro Histórico,ecua_cities.res_zone_ec_2
+res_parish_ec_13,02,San Juan,ecua_cities.res_zone_ec_2
+res_parish_ec_14,03,Itchimbía,ecua_cities.res_zone_ec_2
+res_parish_ec_15,04,La Libertad,ecua_cities.res_zone_ec_2
+res_parish_ec_16,01,Puengasí,ecua_cities.res_zone_ec_3
+res_parish_ec_17,02,Chimbacalle,ecua_cities.res_zone_ec_3
+res_parish_ec_18,03,La Magdalena,ecua_cities.res_zone_ec_3
+res_parish_ec_19,04,Chilibulo,ecua_cities.res_zone_ec_3
+res_parish_ec_20,05,San bartolo,ecua_cities.res_zone_ec_3
+res_parish_ec_21,06,La Mena,ecua_cities.res_zone_ec_3
+res_parish_ec_22,07,La Ferroviaria,ecua_cities.res_zone_ec_3
+res_parish_ec_23,08,Solanda,ecua_cities.res_zone_ec_3
+res_parish_ec_24,09,Lloa,ecua_cities.res_zone_ec_3
+res_parish_ec_25,01,La Ecuatoriana,ecua_cities.res_zone_ec_4
+res_parish_ec_26,02,Chillogallo,ecua_cities.res_zone_ec_4
+res_parish_ec_27,03,Quitumbe,ecua_cities.res_zone_ec_4
+res_parish_ec_28,04,Guamaní,ecua_cities.res_zone_ec_4
+res_parish_ec_29,05,Turubamba,ecua_cities.res_zone_ec_4
+res_parish_ec_30,01,Calderón,ecua_cities.res_zone_ec_5
+res_parish_ec_31,02,Llano Chico,ecua_cities.res_zone_ec_5
+res_parish_ec_32,01,Cumbayá,ecua_cities.res_zone_ec_6
+res_parish_ec_33,02,Tumbaco,ecua_cities.res_zone_ec_6
+res_parish_ec_34,03,Puembo,ecua_cities.res_zone_ec_6
+res_parish_ec_35,04,Pifo,ecua_cities.res_zone_ec_6
+res_parish_ec_36,05,Checa,ecua_cities.res_zone_ec_6
+res_parish_ec_37,06,Tababela,ecua_cities.res_zone_ec_6
+res_parish_ec_38,07,Yaruquí,ecua_cities.res_zone_ec_6
+res_parish_ec_39,08,El Quinche,ecua_cities.res_zone_ec_6
+res_parish_ec_40,09,Guayllabamba,ecua_cities.res_zone_ec_6
+res_parish_ec_41,01,Conocoto,ecua_cities.res_zone_ec_7
+res_parish_ec_42,02,Guangopolo,ecua_cities.res_zone_ec_7
+res_parish_ec_43,01,Nanegal,ecua_cities.res_zone_ec_8
+res_parish_ec_44,02,Nanegalito,ecua_cities.res_zone_ec_8
+res_parish_ec_45,03,Pacto,ecua_cities.res_zone_ec_8
+res_parish_ec_46,04,Gualea,ecua_cities.res_zone_ec_8
+res_parish_ec_47,05,Calacalí,ecua_cities.res_zone_ec_8
+res_parish_ec_48,06,San Antonio,ecua_cities.res_zone_ec_8
+res_parish_ec_49,07,Pomasqui,ecua_cities.res_zone_ec_8
+res_parish_ec_50,08,Nono,ecua_cities.res_zone_ec_8
+res_parish_ec_51,09,El Condado,ecua_cities.res_zone_ec_8
+res_parish_ec_52,10,Comite del Pueblo,ecua_cities.res_zone_ec_8
+res_parish_ec_53,11,Carcelén,ecua_cities.res_zone_ec_8
+res_parish_ec_54,12,Ponceano,ecua_cities.res_zone_ec_8
+res_parish_ec_55,13,Cotocollao,ecua_cities.res_zone_ec_8
+res_parish_ec_56,01,Baños,ecua_cities.res_zone_ec_10
+res_parish_ec_57,02, Chaucha,ecua_cities.res_zone_ec_10
+res_parish_ec_58,03, Checa (jidcay),ecua_cities.res_zone_ec_10
+res_parish_ec_59,04, Chiquintad,ecua_cities.res_zone_ec_10
+res_parish_ec_60,05, Cuenca,ecua_cities.res_zone_ec_10
+res_parish_ec_61,06, Cumbe,ecua_cities.res_zone_ec_10
+res_parish_ec_62,07, Llacao,ecua_cities.res_zone_ec_10
+res_parish_ec_63,08, Molleturo,ecua_cities.res_zone_ec_10
+res_parish_ec_64,09, Nulti,ecua_cities.res_zone_ec_10
+res_parish_ec_65,10, Octavio Cordero Palacios,ecua_cities.res_zone_ec_10
+res_parish_ec_66,11, Paccha,ecua_cities.res_zone_ec_10
+res_parish_ec_67,12, Quingeo,ecua_cities.res_zone_ec_10
+res_parish_ec_68,13, Ricaurte,ecua_cities.res_zone_ec_10
+res_parish_ec_69,14, San Joaquin,ecua_cities.res_zone_ec_10
+res_parish_ec_70,15, Santa ana,ecua_cities.res_zone_ec_10
+res_parish_ec_71,16, Sayausi,ecua_cities.res_zone_ec_10
+res_parish_ec_72,17, Sidcay,ecua_cities.res_zone_ec_10
+res_parish_ec_73,18, Sinincay,ecua_cities.res_zone_ec_10
+res_parish_ec_74,19, Tarqui,ecua_cities.res_zone_ec_10
+res_parish_ec_75,20, Turi,ecua_cities.res_zone_ec_10
+res_parish_ec_76,21, Valle,ecua_cities.res_zone_ec_10
+res_parish_ec_77,22, Victoria del Portete,ecua_cities.res_zone_ec_10
+res_parish_ec_78,01, Asuncion,ecua_cities.res_zone_ec_11
+res_parish_ec_79,02, Giron,ecua_cities.res_zone_ec_11
+res_parish_ec_80,03, San Gerardo,ecua_cities.res_zone_ec_11
+res_parish_ec_81,01, Daniel Cordova Toral,ecua_cities.res_zone_ec_12
+res_parish_ec_82,02, Gualaceo,ecua_cities.res_zone_ec_12
+res_parish_ec_83,03, Jadan,ecua_cities.res_zone_ec_12
+res_parish_ec_84,04, Luis Cordero Vega,ecua_cities.res_zone_ec_12
+res_parish_ec_85,05, Mariano Moreno,ecua_cities.res_zone_ec_12
+res_parish_ec_86,06, Remigio Crespo Toral,ecua_cities.res_zone_ec_12
+res_parish_ec_87,07, San Juan,ecua_cities.res_zone_ec_12
+res_parish_ec_88,08, Simon Bolivar,ecua_cities.res_zone_ec_12
+res_parish_ec_89,09, Zhidmad,ecua_cities.res_zone_ec_12
+res_parish_ec_90,01, Cochapata,ecua_cities.res_zone_ec_13
+res_parish_ec_91,02, El Progreso,ecua_cities.res_zone_ec_13
+res_parish_ec_92,03, Las Nieves (CHAYA),ecua_cities.res_zone_ec_13
+res_parish_ec_93,04, Nabon,ecua_cities.res_zone_ec_13
+res_parish_ec_94,01, Bulan,ecua_cities.res_zone_ec_14
+res_parish_ec_95,02, Chican,ecua_cities.res_zone_ec_14
+res_parish_ec_96,03, Dug-Dug,ecua_cities.res_zone_ec_14
+res_parish_ec_97,04, El Cabo,ecua_cities.res_zone_ec_14
+res_parish_ec_98,05, Guarainag,ecua_cities.res_zone_ec_14
+res_parish_ec_99,06, Paute,ecua_cities.res_zone_ec_14
+res_parish_ec_100,07, San Cristobal,ecua_cities.res_zone_ec_14
+res_parish_ec_101,08, Tomebamba,ecua_cities.res_zone_ec_14
+res_parish_ec_102,01, Pucara,ecua_cities.res_zone_ec_15
+res_parish_ec_103,02, San Rafael de Sharug,ecua_cities.res_zone_ec_15
+res_parish_ec_104,01, Chumblin,ecua_cities.res_zone_ec_16
+res_parish_ec_105,02, San Fernando,ecua_cities.res_zone_ec_16
+res_parish_ec_106,01, Abdon Calderon,ecua_cities.res_zone_ec_17
+res_parish_ec_107,02, Santa Isabel,ecua_cities.res_zone_ec_17
+res_parish_ec_108,03, Zhaglli,ecua_cities.res_zone_ec_17
+res_parish_ec_109,01, Cuchil,ecua_cities.res_zone_ec_18
+res_parish_ec_110,02, Gima,ecua_cities.res_zone_ec_18
+res_parish_ec_111,03, Guel,ecua_cities.res_zone_ec_18
+res_parish_ec_112,04, Ludo,ecua_cities.res_zone_ec_18
+res_parish_ec_113,05, San Bartolome,ecua_cities.res_zone_ec_18
+res_parish_ec_114,06, San Jose de Raranga,ecua_cities.res_zone_ec_18
+res_parish_ec_115,07, Sigsig,ecua_cities.res_zone_ec_18
+res_parish_ec_116,01, Oña,ecua_cities.res_zone_ec_19
+res_parish_ec_117,02, Susudel,ecua_cities.res_zone_ec_19
+res_parish_ec_118,01, Chordeleg,ecua_cities.res_zone_ec_20
+res_parish_ec_119,02, La Union,ecua_cities.res_zone_ec_20
+res_parish_ec_120,03, Luis Galarza Orellana,ecua_cities.res_zone_ec_20
+res_parish_ec_121,04, Principal,ecua_cities.res_zone_ec_20
+res_parish_ec_122,05, San Martin de Puzhio,ecua_cities.res_zone_ec_20
+res_parish_ec_123,01, El Pan,ecua_cities.res_zone_ec_21
+res_parish_ec_124,02, San Vicente,ecua_cities.res_zone_ec_21
+res_parish_ec_125,01, Amaluza,ecua_cities.res_zone_ec_22
+res_parish_ec_126,02, Palmas,ecua_cities.res_zone_ec_22
+res_parish_ec_127,03, Sevilla De Oro,ecua_cities.res_zone_ec_22
+res_parish_ec_128,01, Guachapala,ecua_cities.res_zone_ec_23
+res_parish_ec_129,01, Camilo Ponce Enriquez,ecua_cities.res_zone_ec_24
+res_parish_ec_130,02, El Carmen De Pijili,ecua_cities.res_zone_ec_24
+res_parish_ec_131,01, Facundo Vela,ecua_cities.res_zone_ec_25
+res_parish_ec_132,02, Guaranda,ecua_cities.res_zone_ec_25
+res_parish_ec_133,03, Julio E. Moreno,ecua_cities.res_zone_ec_25
+res_parish_ec_134,04, Salinas,ecua_cities.res_zone_ec_25
+res_parish_ec_135,05, San Lorenzo,ecua_cities.res_zone_ec_25
+res_parish_ec_136,06, San Luis De Pambil,ecua_cities.res_zone_ec_25
+res_parish_ec_137,07, San Simon (YACOTO),ecua_cities.res_zone_ec_25
+res_parish_ec_138,08, Santafe (SANTA Fe),ecua_cities.res_zone_ec_25
+res_parish_ec_139,09, Simiatug,ecua_cities.res_zone_ec_25
+res_parish_ec_140,01, Chillanes,ecua_cities.res_zone_ec_26
+res_parish_ec_141,02, San Jose Del Tambo,ecua_cities.res_zone_ec_26
+res_parish_ec_142,01, Asuncion (ASANCOTO),ecua_cities.res_zone_ec_27
+res_parish_ec_143,02, Magdalena (CHAPACOTO),ecua_cities.res_zone_ec_27
+res_parish_ec_144,03, San Jose De Chimbo,ecua_cities.res_zone_ec_27
+res_parish_ec_145,04, San Sebastian,ecua_cities.res_zone_ec_27
+res_parish_ec_146,05, Telimbela,ecua_cities.res_zone_ec_27
+res_parish_ec_147,01, Echeandia,ecua_cities.res_zone_ec_28
+res_parish_ec_148,01, Balsapamba,ecua_cities.res_zone_ec_29
+res_parish_ec_149,02, Bilovan,ecua_cities.res_zone_ec_29
+res_parish_ec_150,03, Regulo De Mora,ecua_cities.res_zone_ec_29
+res_parish_ec_151,04, San Miguel,ecua_cities.res_zone_ec_29
+res_parish_ec_152,05, San Pablo,ecua_cities.res_zone_ec_29
+res_parish_ec_153,06, San Vicente,ecua_cities.res_zone_ec_29
+res_parish_ec_154,07, Santiago,ecua_cities.res_zone_ec_29
+res_parish_ec_155,01, Caluma,ecua_cities.res_zone_ec_30
+res_parish_ec_156,01, Las Naves,ecua_cities.res_zone_ec_31
+res_parish_ec_157,01, Azogues,ecua_cities.res_zone_ec_32
+res_parish_ec_158,02, Cojitambo,ecua_cities.res_zone_ec_32
+res_parish_ec_159,03, Guapan,ecua_cities.res_zone_ec_32
+res_parish_ec_160,04, Javier Loyola,ecua_cities.res_zone_ec_32
+res_parish_ec_161,05, Luis Cordero,ecua_cities.res_zone_ec_32
+res_parish_ec_162,06, Pindilig,ecua_cities.res_zone_ec_32
+res_parish_ec_163,07, Rivera,ecua_cities.res_zone_ec_32
+res_parish_ec_164,08, San Miguel,ecua_cities.res_zone_ec_32
+res_parish_ec_165,09, Taday,ecua_cities.res_zone_ec_32
+res_parish_ec_166,01, Biblian,ecua_cities.res_zone_ec_33
+res_parish_ec_167,02, Jerusalen,ecua_cities.res_zone_ec_33
+res_parish_ec_168,03, Nazon,ecua_cities.res_zone_ec_33
+res_parish_ec_169,04, San Francisco de Sageo,ecua_cities.res_zone_ec_33
+res_parish_ec_170,05, Turupamba,ecua_cities.res_zone_ec_33
+res_parish_ec_171,01, Cañar,ecua_cities.res_zone_ec_34
+res_parish_ec_172,02, Chontamarca,ecua_cities.res_zone_ec_34
+res_parish_ec_173,03, Chorocopte,ecua_cities.res_zone_ec_34
+res_parish_ec_174,04, Ducur,ecua_cities.res_zone_ec_34
+res_parish_ec_175,05, General Morales,ecua_cities.res_zone_ec_34
+res_parish_ec_176,06, Gualleturo,ecua_cities.res_zone_ec_34
+res_parish_ec_177,07, Honorato Vasquez,ecua_cities.res_zone_ec_34
+res_parish_ec_178,08, Ingapirca,ecua_cities.res_zone_ec_34
+res_parish_ec_179,09, Juncal,ecua_cities.res_zone_ec_34
+res_parish_ec_180,10, San Antonio,ecua_cities.res_zone_ec_34
+res_parish_ec_181,11, Ventura,ecua_cities.res_zone_ec_34
+res_parish_ec_182,12, Zhud,ecua_cities.res_zone_ec_34
+res_parish_ec_183,01, La Troncal,ecua_cities.res_zone_ec_35
+res_parish_ec_184,02, Manuel J. Calle,ecua_cities.res_zone_ec_35
+res_parish_ec_185,03, Pancho Negro,ecua_cities.res_zone_ec_35
+res_parish_ec_186,01, El Tambo,ecua_cities.res_zone_ec_36
+res_parish_ec_187,01, Deleg,ecua_cities.res_zone_ec_37
+res_parish_ec_188,02, Solano,ecua_cities.res_zone_ec_37
+res_parish_ec_189,01, Suscal,ecua_cities.res_zone_ec_38
+res_parish_ec_190,01, El Carmelo (EL Pun),ecua_cities.res_zone_ec_39
+res_parish_ec_191,02, El Chical,ecua_cities.res_zone_ec_39
+res_parish_ec_192,03, Julio Andrade (OREJUELA),ecua_cities.res_zone_ec_39
+res_parish_ec_193,04, Maldonado,ecua_cities.res_zone_ec_39
+res_parish_ec_194,05, Pioter,ecua_cities.res_zone_ec_39
+res_parish_ec_195,06, Santa Martha de Cuba,ecua_cities.res_zone_ec_39
+res_parish_ec_196,07, Tobar Donoso (LA Bocana),ecua_cities.res_zone_ec_39
+res_parish_ec_197,08, Tufiño,ecua_cities.res_zone_ec_39
+res_parish_ec_198,09, Tulcan,ecua_cities.res_zone_ec_39
+res_parish_ec_199,10, Urbina (TAYA),ecua_cities.res_zone_ec_39
+res_parish_ec_200,01, Bolivar,ecua_cities.res_zone_ec_40
+res_parish_ec_201,02, Garcia Moreno,ecua_cities.res_zone_ec_40
+res_parish_ec_202,03, Los Andes,ecua_cities.res_zone_ec_40
+res_parish_ec_203,04, Monte Olivo,ecua_cities.res_zone_ec_40
+res_parish_ec_204,05, San Rafael,ecua_cities.res_zone_ec_40
+res_parish_ec_205,06, San Vicente de Pusir,ecua_cities.res_zone_ec_40
+res_parish_ec_206,01, El Angel,ecua_cities.res_zone_ec_41
+res_parish_ec_207,02, El Goaltal,ecua_cities.res_zone_ec_41
+res_parish_ec_208,03, La Libertad (ALIZO),ecua_cities.res_zone_ec_41
+res_parish_ec_209,04, San Isidro,ecua_cities.res_zone_ec_41
+res_parish_ec_210,01, Concepcion,ecua_cities.res_zone_ec_42
+res_parish_ec_211,02, Jijon Y Caamaño,ecua_cities.res_zone_ec_42
+res_parish_ec_212,03, Juan Montalvo,ecua_cities.res_zone_ec_42
+res_parish_ec_213,04, Mira (CHONTAHUASI),ecua_cities.res_zone_ec_42
+res_parish_ec_214,01, Chitan de Navarrete,ecua_cities.res_zone_ec_43
+res_parish_ec_215,02, Cristobal Colon,ecua_cities.res_zone_ec_43
+res_parish_ec_216,03, Fernandez Salvador,ecua_cities.res_zone_ec_43
+res_parish_ec_217,04, La Paz,ecua_cities.res_zone_ec_43
+res_parish_ec_218,05, Piartal,ecua_cities.res_zone_ec_43
+res_parish_ec_219,06, San Gabriel,ecua_cities.res_zone_ec_43
+res_parish_ec_220,01, Huaca,ecua_cities.res_zone_ec_44
+res_parish_ec_221,02, Mariscal Sucre,ecua_cities.res_zone_ec_44
+res_parish_ec_222,01, 11 De Noviembre (ILINCHI,ecua_cities.res_zone_ec_45
+res_parish_ec_223,02, Alaques (ALAQUEZ),ecua_cities.res_zone_ec_45
+res_parish_ec_224,03, Belisario Quevedo,ecua_cities.res_zone_ec_45
+res_parish_ec_225,04, Guaitacama (GUAYTACAMA),ecua_cities.res_zone_ec_45
+res_parish_ec_226,05, Joseguango Bajo,ecua_cities.res_zone_ec_45
+res_parish_ec_227,06, Latacunga,ecua_cities.res_zone_ec_45
+res_parish_ec_228,07, Mulalo,ecua_cities.res_zone_ec_45
+res_parish_ec_229,08, Poalo,ecua_cities.res_zone_ec_45
+res_parish_ec_230,09, San Juan de Pastocalle,ecua_cities.res_zone_ec_45
+res_parish_ec_231,10, Tanicuchi,ecua_cities.res_zone_ec_45
+res_parish_ec_232,11, Toacaso,ecua_cities.res_zone_ec_45
+res_parish_ec_233,01, Guasaganda,ecua_cities.res_zone_ec_46
+res_parish_ec_234,02, La Mana,ecua_cities.res_zone_ec_46
+res_parish_ec_235,03, Pucayacu,ecua_cities.res_zone_ec_46
+res_parish_ec_236,01, El Corazon,ecua_cities.res_zone_ec_47
+res_parish_ec_237,02, Moraspungo,ecua_cities.res_zone_ec_47
+res_parish_ec_238,03, Pinllopata,ecua_cities.res_zone_ec_47
+res_parish_ec_239,04, Ramon Campaña,ecua_cities.res_zone_ec_47
+res_parish_ec_240,01, Angamarca,ecua_cities.res_zone_ec_48
+res_parish_ec_241,02, Guangaje,ecua_cities.res_zone_ec_48
+res_parish_ec_242,03, La Victoria,ecua_cities.res_zone_ec_48
+res_parish_ec_243,04, Pilalo,ecua_cities.res_zone_ec_48
+res_parish_ec_244,05, Pujili,ecua_cities.res_zone_ec_48
+res_parish_ec_245,06, Tingo,ecua_cities.res_zone_ec_48
+res_parish_ec_246,07, Zumbahua,ecua_cities.res_zone_ec_48
+res_parish_ec_247,01, Antonio Jose Holguin,ecua_cities.res_zone_ec_49
+res_parish_ec_248,02, Cusubamba,ecua_cities.res_zone_ec_49
+res_parish_ec_249,03, Mulalillo,ecua_cities.res_zone_ec_49
+res_parish_ec_250,04, Mulliquindil (SANTA Ana),ecua_cities.res_zone_ec_49
+res_parish_ec_251,05, Pansaleo,ecua_cities.res_zone_ec_49
+res_parish_ec_252,06, San Miguel,ecua_cities.res_zone_ec_49
+res_parish_ec_253,01, Canchagua,ecua_cities.res_zone_ec_50
+res_parish_ec_254,02, Chantilin,ecua_cities.res_zone_ec_50
+res_parish_ec_255,03, Cochapamba,ecua_cities.res_zone_ec_50
+res_parish_ec_256,04, Saquisili,ecua_cities.res_zone_ec_50
+res_parish_ec_257,01, Chugchilan,ecua_cities.res_zone_ec_51
+res_parish_ec_258,02, Isinlivi,ecua_cities.res_zone_ec_51
+res_parish_ec_259,03, Las Pampas,ecua_cities.res_zone_ec_51
+res_parish_ec_260,04, Palo Quemado,ecua_cities.res_zone_ec_51
+res_parish_ec_261,05, Sigchos,ecua_cities.res_zone_ec_51
+res_parish_ec_262,01, Cacha,ecua_cities.res_zone_ec_52
+res_parish_ec_263,02, Calpi,ecua_cities.res_zone_ec_52
+res_parish_ec_264,03, Cubijies,ecua_cities.res_zone_ec_52
+res_parish_ec_265,04, Flores,ecua_cities.res_zone_ec_52
+res_parish_ec_266,05, Lican,ecua_cities.res_zone_ec_52
+res_parish_ec_267,06, Licto,ecua_cities.res_zone_ec_52
+res_parish_ec_268,07, Pungala,ecua_cities.res_zone_ec_52
+res_parish_ec_269,08, Punin,ecua_cities.res_zone_ec_52
+res_parish_ec_270,09, Quimiag,ecua_cities.res_zone_ec_52
+res_parish_ec_271,10, Riobamba,ecua_cities.res_zone_ec_52
+res_parish_ec_272,11, San Juan,ecua_cities.res_zone_ec_52
+res_parish_ec_273,12, San Luis,ecua_cities.res_zone_ec_52
+res_parish_ec_274,01, Achupallas,ecua_cities.res_zone_ec_53
+res_parish_ec_275,02, Alausi,ecua_cities.res_zone_ec_53
+res_parish_ec_276,03, Guasuntos,ecua_cities.res_zone_ec_53
+res_parish_ec_277,04, Huigra,ecua_cities.res_zone_ec_53
+res_parish_ec_278,05, Multitud,ecua_cities.res_zone_ec_53
+res_parish_ec_279,06, Pistishi (NARIZ Del Diablo),ecua_cities.res_zone_ec_53
+res_parish_ec_280,07, Pumallacta (PUMAL-LACTA),ecua_cities.res_zone_ec_53
+res_parish_ec_281,08, Sevilla,ecua_cities.res_zone_ec_53
+res_parish_ec_282,09, Sibambe,ecua_cities.res_zone_ec_53
+res_parish_ec_283,10, Tixan,ecua_cities.res_zone_ec_53
+res_parish_ec_284,01, Cañi,ecua_cities.res_zone_ec_54
+res_parish_ec_285,02, Columbe,ecua_cities.res_zone_ec_54
+res_parish_ec_286,03, Juan de Velasco (PANGOR),ecua_cities.res_zone_ec_54
+res_parish_ec_287,04, Santiago De Quito,ecua_cities.res_zone_ec_54
+res_parish_ec_288,05, Villa La Union,ecua_cities.res_zone_ec_54
+res_parish_ec_289,01, Chambo,ecua_cities.res_zone_ec_55
+res_parish_ec_290,01, Capzol,ecua_cities.res_zone_ec_56
+res_parish_ec_291,02, Chunchi,ecua_cities.res_zone_ec_56
+res_parish_ec_292,03, Compud,ecua_cities.res_zone_ec_56
+res_parish_ec_293,04, Gonzol,ecua_cities.res_zone_ec_56
+res_parish_ec_294,05, Llagos,ecua_cities.res_zone_ec_56
+res_parish_ec_295,01, Cebadas,ecua_cities.res_zone_ec_57
+res_parish_ec_296,02, Guamote,ecua_cities.res_zone_ec_57
+res_parish_ec_297,03, Palmira,ecua_cities.res_zone_ec_57
+res_parish_ec_298,01, Guanando,ecua_cities.res_zone_ec_58
+res_parish_ec_299,02, Guano,ecua_cities.res_zone_ec_58
+res_parish_ec_300,03, Ilapo,ecua_cities.res_zone_ec_58
+res_parish_ec_301,04, La Providencia,ecua_cities.res_zone_ec_58
+res_parish_ec_302,05, San Andres,ecua_cities.res_zone_ec_58
+res_parish_ec_303,06, San Gerardo de Pacaicaguan,ecua_cities.res_zone_ec_58
+res_parish_ec_304,07, San Isidro de Patulu,ecua_cities.res_zone_ec_58
+res_parish_ec_305,08, San Jose del Chazo,ecua_cities.res_zone_ec_58
+res_parish_ec_306,09, Santa Fe de Galan,ecua_cities.res_zone_ec_58
+res_parish_ec_307,10, Valparaiso,ecua_cities.res_zone_ec_58
+res_parish_ec_308,01, Pallatanga,ecua_cities.res_zone_ec_59
+res_parish_ec_309,01, Bilbao,ecua_cities.res_zone_ec_60
+res_parish_ec_310,02, El Altar,ecua_cities.res_zone_ec_60
+res_parish_ec_311,03, La Candelaria,ecua_cities.res_zone_ec_60
+res_parish_ec_312,04, Matus,ecua_cities.res_zone_ec_60
+res_parish_ec_313,05, Penipe,ecua_cities.res_zone_ec_60
+res_parish_ec_314,06, Puela,ecua_cities.res_zone_ec_60
+res_parish_ec_315,07, San Antonio de Bayushig,ecua_cities.res_zone_ec_60
+res_parish_ec_316,01, Cumanda,ecua_cities.res_zone_ec_61
+res_parish_ec_317,01, El Retiro,ecua_cities.res_zone_ec_62
+res_parish_ec_318,02, Machala,ecua_cities.res_zone_ec_62
+res_parish_ec_319,01, Arenillas,ecua_cities.res_zone_ec_63
+res_parish_ec_320,02, Carcabon,ecua_cities.res_zone_ec_63
+res_parish_ec_321,03, Chacras,ecua_cities.res_zone_ec_63
+res_parish_ec_322,04, Palmales,ecua_cities.res_zone_ec_63
+res_parish_ec_323,01, Ayapamba,ecua_cities.res_zone_ec_64
+res_parish_ec_324,02, Cerro Azul,ecua_cities.res_zone_ec_64
+res_parish_ec_325,03, Cordoncillo,ecua_cities.res_zone_ec_64
+res_parish_ec_326,04, Milagro,ecua_cities.res_zone_ec_64
+res_parish_ec_327,05, Paccha,ecua_cities.res_zone_ec_64
+res_parish_ec_328,06, San Jose,ecua_cities.res_zone_ec_64
+res_parish_ec_329,01, Balsas,ecua_cities.res_zone_ec_65
+res_parish_ec_330,02, Bellamaria,ecua_cities.res_zone_ec_65
+res_parish_ec_331,01, Chilla,ecua_cities.res_zone_ec_66
+res_parish_ec_332,01, Barbones (SUCRE),ecua_cities.res_zone_ec_67
+res_parish_ec_333,02, El Guabo,ecua_cities.res_zone_ec_67
+res_parish_ec_334,03, La Iberia,ecua_cities.res_zone_ec_67
+res_parish_ec_335,04, Rio Bonito,ecua_cities.res_zone_ec_67
+res_parish_ec_336,05, Tendales,ecua_cities.res_zone_ec_67
+res_parish_ec_337,01, Huaquillas,ecua_cities.res_zone_ec_68
+res_parish_ec_338,01, El Ingenio,ecua_cities.res_zone_ec_69
+res_parish_ec_339,02, Marcabeli,ecua_cities.res_zone_ec_69
+res_parish_ec_340,01, Buenavista,ecua_cities.res_zone_ec_70
+res_parish_ec_341,02, Caña Quemada,ecua_cities.res_zone_ec_70
+res_parish_ec_342,03, Casacay,ecua_cities.res_zone_ec_70
+res_parish_ec_343,04, La Peaña,ecua_cities.res_zone_ec_70
+res_parish_ec_344,05, Pasaje,ecua_cities.res_zone_ec_70
+res_parish_ec_345,06, Progreso,ecua_cities.res_zone_ec_70
+res_parish_ec_346,07, Uzhcurrumi,ecua_cities.res_zone_ec_70
+res_parish_ec_347,01, Capiro,ecua_cities.res_zone_ec_71
+res_parish_ec_348,02, La Bocana,ecua_cities.res_zone_ec_71
+res_parish_ec_349,03, Moromoro,ecua_cities.res_zone_ec_71
+res_parish_ec_350,04, Piedras,ecua_cities.res_zone_ec_71
+res_parish_ec_351,05, Piñas,ecua_cities.res_zone_ec_71
+res_parish_ec_352,06, San Roque,ecua_cities.res_zone_ec_71
+res_parish_ec_353,07, Saracay,ecua_cities.res_zone_ec_71
+res_parish_ec_354,01, Curtincapa,ecua_cities.res_zone_ec_72
+res_parish_ec_355,02, Morales,ecua_cities.res_zone_ec_72
+res_parish_ec_356,03, Portovelo,ecua_cities.res_zone_ec_72
+res_parish_ec_357,04, Salati,ecua_cities.res_zone_ec_72
+res_parish_ec_358,01, Bellamaria,ecua_cities.res_zone_ec_73
+res_parish_ec_359,02, Bellavista,ecua_cities.res_zone_ec_73
+res_parish_ec_360,03, Jambeli,ecua_cities.res_zone_ec_73
+res_parish_ec_361,04, La Avanzada,ecua_cities.res_zone_ec_73
+res_parish_ec_362,05, San Antonio,ecua_cities.res_zone_ec_73
+res_parish_ec_363,06, Santa Rosa,ecua_cities.res_zone_ec_73
+res_parish_ec_364,07, Torata,ecua_cities.res_zone_ec_73
+res_parish_ec_365,08, Victoria,ecua_cities.res_zone_ec_73
+res_parish_ec_366,01, Abañin,ecua_cities.res_zone_ec_74
+res_parish_ec_367,02, Arcapamba,ecua_cities.res_zone_ec_74
+res_parish_ec_368,03, Guanazan,ecua_cities.res_zone_ec_74
+res_parish_ec_369,04, Guizhaguiña,ecua_cities.res_zone_ec_74
+res_parish_ec_370,05, Huertas,ecua_cities.res_zone_ec_74
+res_parish_ec_371,06, Malvas,ecua_cities.res_zone_ec_74
+res_parish_ec_372,07, Muluncay Grande,ecua_cities.res_zone_ec_74
+res_parish_ec_373,08, Salvias,ecua_cities.res_zone_ec_74
+res_parish_ec_374,09, Sinsao,ecua_cities.res_zone_ec_74
+res_parish_ec_375,10, Zaruma,ecua_cities.res_zone_ec_74
+res_parish_ec_376,01, El Paraiso,ecua_cities.res_zone_ec_75
+res_parish_ec_377,02, La Libertad,ecua_cities.res_zone_ec_75
+res_parish_ec_378,03, La Victoria,ecua_cities.res_zone_ec_75
+res_parish_ec_379,04, San Isidro,ecua_cities.res_zone_ec_75
+res_parish_ec_380,01, Camarones,ecua_cities.res_zone_ec_76
+res_parish_ec_381,02, Chinca,ecua_cities.res_zone_ec_76
+res_parish_ec_382,03, Crnel. Carlos Concha Torres,ecua_cities.res_zone_ec_76
+res_parish_ec_383,04, Esmeraldas,ecua_cities.res_zone_ec_76
+res_parish_ec_384,05, Majua,ecua_cities.res_zone_ec_76
+res_parish_ec_385,06, San Mateo,ecua_cities.res_zone_ec_76
+res_parish_ec_386,07, Tabiazo,ecua_cities.res_zone_ec_76
+res_parish_ec_387,08, Tachina,ecua_cities.res_zone_ec_76
+res_parish_ec_388,09, Vuelta Larga,ecua_cities.res_zone_ec_76
+res_parish_ec_389,01, Anchayacu,ecua_cities.res_zone_ec_77
+res_parish_ec_390,02, Atahualpa,ecua_cities.res_zone_ec_77
+res_parish_ec_391,03, Borbon,ecua_cities.res_zone_ec_77
+res_parish_ec_392,04, Colon Eloy del Maria,ecua_cities.res_zone_ec_77
+res_parish_ec_393,05, La Tola,ecua_cities.res_zone_ec_77
+res_parish_ec_394,06, Luis Vargas Torres,ecua_cities.res_zone_ec_77
+res_parish_ec_395,07, Maldonado,ecua_cities.res_zone_ec_77
+res_parish_ec_396,08, Pampanal De Bolivar,ecua_cities.res_zone_ec_77
+res_parish_ec_397,09, San Francisco de Onzole,ecua_cities.res_zone_ec_77
+res_parish_ec_398,10, San Jose de Cayapas,ecua_cities.res_zone_ec_77
+res_parish_ec_399,11, Santo Domingo de Onzole,ecua_cities.res_zone_ec_77
+res_parish_ec_400,12, Selva Alegre,ecua_cities.res_zone_ec_77
+res_parish_ec_401,13, Telembi,ecua_cities.res_zone_ec_77
+res_parish_ec_402,14, Timbire,ecua_cities.res_zone_ec_77
+res_parish_ec_403,15, Valdez (LIMONES),ecua_cities.res_zone_ec_77
+res_parish_ec_404,01, Bolivar,ecua_cities.res_zone_ec_78
+res_parish_ec_405,02, Daule,ecua_cities.res_zone_ec_78
+res_parish_ec_406,03, Galera,ecua_cities.res_zone_ec_78
+res_parish_ec_407,04, Muisne,ecua_cities.res_zone_ec_78
+res_parish_ec_408,05, Quingue (OLMEDO Perdomo,ecua_cities.res_zone_ec_78
+res_parish_ec_409,06, Salima,ecua_cities.res_zone_ec_78
+res_parish_ec_410,07, San Francisco,ecua_cities.res_zone_ec_78
+res_parish_ec_411,08, San Gregorio,ecua_cities.res_zone_ec_78
+res_parish_ec_412,09, San Jose De Chamanga,ecua_cities.res_zone_ec_78
+res_parish_ec_413,01, Chura (CHANCAMA),ecua_cities.res_zone_ec_79
+res_parish_ec_414,02, Cube,ecua_cities.res_zone_ec_79
+res_parish_ec_415,03, La Union,ecua_cities.res_zone_ec_79
+res_parish_ec_416,04, Malimpia,ecua_cities.res_zone_ec_79
+res_parish_ec_417,05, Rosa Zarate (QUININDE),ecua_cities.res_zone_ec_79
+res_parish_ec_418,06, Viche,ecua_cities.res_zone_ec_79
+res_parish_ec_419,01, 5 De Junio,ecua_cities.res_zone_ec_80
+res_parish_ec_420,02, Alto Tambo,ecua_cities.res_zone_ec_80
+res_parish_ec_421,03, Ancon (PICHANGAL),ecua_cities.res_zone_ec_80
+res_parish_ec_422,04, Calderon,ecua_cities.res_zone_ec_80
+res_parish_ec_423,05, Carondelet,ecua_cities.res_zone_ec_80
+res_parish_ec_424,06, Concepcion,ecua_cities.res_zone_ec_80
+res_parish_ec_425,07, Mataje,ecua_cities.res_zone_ec_80
+res_parish_ec_426,08, San Javier de Cachavi,ecua_cities.res_zone_ec_80
+res_parish_ec_427,09, San Lorenzo,ecua_cities.res_zone_ec_80
+res_parish_ec_428,10, Santa Rita,ecua_cities.res_zone_ec_80
+res_parish_ec_429,11, Tambillo,ecua_cities.res_zone_ec_80
+res_parish_ec_430,12, Tululbi,ecua_cities.res_zone_ec_80
+res_parish_ec_431,13, Urbina,ecua_cities.res_zone_ec_80
+res_parish_ec_432,01, La Union,ecua_cities.res_zone_ec_81
+res_parish_ec_433,02, Sua,ecua_cities.res_zone_ec_81
+res_parish_ec_434,03, Tonchigue,ecua_cities.res_zone_ec_81
+res_parish_ec_435,04, Tonsupa,ecua_cities.res_zone_ec_81
+res_parish_ec_436,01, Chontaduro,ecua_cities.res_zone_ec_82
+res_parish_ec_437,02, Chumunde,ecua_cities.res_zone_ec_82
+res_parish_ec_438,03, Lagarto,ecua_cities.res_zone_ec_82
+res_parish_ec_439,04, Montalvo,ecua_cities.res_zone_ec_82
+res_parish_ec_440,05, Rioverde,ecua_cities.res_zone_ec_82
+res_parish_ec_441,06, Rocafuerte,ecua_cities.res_zone_ec_82
+res_parish_ec_442,01, La Concordia,ecua_cities.res_zone_ec_83
+res_parish_ec_443,01, Guayaquil,ecua_cities.res_zone_ec_84
+res_parish_ec_444,02, Juan Gomez Rendon (PROGR,ecua_cities.res_zone_ec_84
+res_parish_ec_445,03, Morro,ecua_cities.res_zone_ec_84
+res_parish_ec_446,04, Posorja,ecua_cities.res_zone_ec_84
+res_parish_ec_447,05, Puna,ecua_cities.res_zone_ec_84
+res_parish_ec_448,06, Tenguel,ecua_cities.res_zone_ec_84
+res_parish_ec_449,01, Alfredo Baquerizo Moreno,ecua_cities.res_zone_ec_85
+res_parish_ec_450,01, Balao,ecua_cities.res_zone_ec_87
+res_parish_ec_451,01, Balzar,ecua_cities.res_zone_ec_88
+res_parish_ec_452,01, Colimes,ecua_cities.res_zone_ec_89
+res_parish_ec_453,02, San Jacinto,ecua_cities.res_zone_ec_89
+res_parish_ec_454,01, Daule,ecua_cities.res_zone_ec_90
+res_parish_ec_455,02, Juan Bautista Aguirre,ecua_cities.res_zone_ec_90
+res_parish_ec_456,03, Laurel,ecua_cities.res_zone_ec_90
+res_parish_ec_457,04, Limonal,ecua_cities.res_zone_ec_90
+res_parish_ec_458,05, Los Lojas,ecua_cities.res_zone_ec_90
+res_parish_ec_459,01, Eloy Alfaro (DURAN),ecua_cities.res_zone_ec_91
+res_parish_ec_460,01, El Rosario,ecua_cities.res_zone_ec_92
+res_parish_ec_461,02, Guayas (PUEBLO Nuevo),ecua_cities.res_zone_ec_92
+res_parish_ec_462,03, Velasco Ibarra,ecua_cities.res_zone_ec_92
+res_parish_ec_463,01, El Triunfo,ecua_cities.res_zone_ec_93
+res_parish_ec_464,01, Chobo,ecua_cities.res_zone_ec_94
+res_parish_ec_465,02, Mariscal Sucre (HUAQUES),ecua_cities.res_zone_ec_94
+res_parish_ec_466,03, Milagro,ecua_cities.res_zone_ec_94
+res_parish_ec_467,04, Roberto Astudillo,ecua_cities.res_zone_ec_94
+res_parish_ec_468,01, Jesus Maria,ecua_cities.res_zone_ec_95
+res_parish_ec_469,02, Naranjal,ecua_cities.res_zone_ec_95
+res_parish_ec_470,03, San Carlos,ecua_cities.res_zone_ec_95
+res_parish_ec_471,04, Santa Rosa de Flandes,ecua_cities.res_zone_ec_95
+res_parish_ec_472,05, Taura,ecua_cities.res_zone_ec_95
+res_parish_ec_473,01, Naranjito,ecua_cities.res_zone_ec_96
+res_parish_ec_474,01, Palestina,ecua_cities.res_zone_ec_97
+res_parish_ec_475,01, Pedro Carbo,ecua_cities.res_zone_ec_98
+res_parish_ec_476,02, Sabanilla,ecua_cities.res_zone_ec_98
+res_parish_ec_477,03, Valle De La Virgen,ecua_cities.res_zone_ec_98
+res_parish_ec_478,01, Samborondon,ecua_cities.res_zone_ec_99
+res_parish_ec_479,02, Tarifa,ecua_cities.res_zone_ec_99
+res_parish_ec_480,01, Santa Lucia,ecua_cities.res_zone_ec_100
+res_parish_ec_481,01, El Salitre (LAS Ramas),ecua_cities.res_zone_ec_101
+res_parish_ec_482,02, General Vernaza,ecua_cities.res_zone_ec_101
+res_parish_ec_483,03, Junquillal,ecua_cities.res_zone_ec_101
+res_parish_ec_484,04, La Victoria (ÑAUZA),ecua_cities.res_zone_ec_101
+res_parish_ec_485,01, Gral. Pedro J. Montero,ecua_cities.res_zone_ec_102
+res_parish_ec_486,02, Virgen De Fatima,ecua_cities.res_zone_ec_102
+res_parish_ec_487,03, Yaguachi Nuevo,ecua_cities.res_zone_ec_102
+res_parish_ec_488,04, Yaguachi Viejo (CONE),ecua_cities.res_zone_ec_102
+res_parish_ec_489,01, General Villamil,ecua_cities.res_zone_ec_103
+res_parish_ec_490,01, Crnel.Lorenzo de Garaicoa,ecua_cities.res_zone_ec_104
+res_parish_ec_491,02, Simon Bolivar,ecua_cities.res_zone_ec_104
+res_parish_ec_492,01, Coronel Marcelino Maridueña,ecua_cities.res_zone_ec_105
+res_parish_ec_493,01, Lomas De Sargentillo,ecua_cities.res_zone_ec_106
+res_parish_ec_494,01, Narcisa De Jesus,ecua_cities.res_zone_ec_107
+res_parish_ec_495,01, General Antonio Elizalde,ecua_cities.res_zone_ec_108
+res_parish_ec_496,01, Isidro Ayora,ecua_cities.res_zone_ec_109
+res_parish_ec_497,01, Ambuqui,ecua_cities.res_zone_ec_110
+res_parish_ec_498,02, Angochagua,ecua_cities.res_zone_ec_110
+res_parish_ec_499,03, Carolina,ecua_cities.res_zone_ec_110
+res_parish_ec_500,04, Ibarra,ecua_cities.res_zone_ec_110
+res_parish_ec_501,05, La Esperanza,ecua_cities.res_zone_ec_110
+res_parish_ec_502,06, Lita,ecua_cities.res_zone_ec_110
+res_parish_ec_503,07, Salinas,ecua_cities.res_zone_ec_110
+res_parish_ec_504,08, San Antonio,ecua_cities.res_zone_ec_110
+res_parish_ec_505,01, Atuntaqui,ecua_cities.res_zone_ec_111
+res_parish_ec_506,02, Imbaya,ecua_cities.res_zone_ec_111
+res_parish_ec_507,03, San Francisco De Natabue,ecua_cities.res_zone_ec_111
+res_parish_ec_508,04, San Jose de Chaltura,ecua_cities.res_zone_ec_111
+res_parish_ec_509,05, San Roque,ecua_cities.res_zone_ec_111
+res_parish_ec_510,01, 6 De Julio de Cuellaje,ecua_cities.res_zone_ec_112
+res_parish_ec_511,02, Apuela,ecua_cities.res_zone_ec_112
+res_parish_ec_512,03, Cotacachi,ecua_cities.res_zone_ec_112
+res_parish_ec_513,04, Garcia Moreno,ecua_cities.res_zone_ec_112
+res_parish_ec_514,05, Imantag,ecua_cities.res_zone_ec_112
+res_parish_ec_515,06, Peñaherrera,ecua_cities.res_zone_ec_112
+res_parish_ec_516,07, Plaza Gutierrez,ecua_cities.res_zone_ec_112
+res_parish_ec_517,08, Quiroga,ecua_cities.res_zone_ec_112
+res_parish_ec_518,09, Vacas Galindo (EL Churo),ecua_cities.res_zone_ec_112
+res_parish_ec_519,01, Dr. Miguel Egas Cabezas,ecua_cities.res_zone_ec_113
+res_parish_ec_520,02, Eugenio Espejo (CALPAQUI),ecua_cities.res_zone_ec_113
+res_parish_ec_521,03, Gonzalez Suarez,ecua_cities.res_zone_ec_113
+res_parish_ec_522,04, Otavalo,ecua_cities.res_zone_ec_113
+res_parish_ec_523,05, Pataqui,ecua_cities.res_zone_ec_113
+res_parish_ec_524,06, San Jose de Quichinche,ecua_cities.res_zone_ec_113
+res_parish_ec_525,07, San Juan De Iluman,ecua_cities.res_zone_ec_113
+res_parish_ec_526,08, San Pablo,ecua_cities.res_zone_ec_113
+res_parish_ec_527,09, San Rafael,ecua_cities.res_zone_ec_113
+res_parish_ec_528,10, Selva Alegre,ecua_cities.res_zone_ec_113
+res_parish_ec_529,01, Chuga,ecua_cities.res_zone_ec_114
+res_parish_ec_530,02, Mariano Acosta,ecua_cities.res_zone_ec_114
+res_parish_ec_531,03, Pimampiro,ecua_cities.res_zone_ec_114
+res_parish_ec_532,04, San Francisco de Sigsipa,ecua_cities.res_zone_ec_114
+res_parish_ec_533,01, Cahuasqui,ecua_cities.res_zone_ec_115
+res_parish_ec_534,02, La Merced de Buenos Aires,ecua_cities.res_zone_ec_115
+res_parish_ec_535,03, Pablo Arenas,ecua_cities.res_zone_ec_115
+res_parish_ec_536,04, San Blas,ecua_cities.res_zone_ec_115
+res_parish_ec_537,05, Tumbabiro,ecua_cities.res_zone_ec_115
+res_parish_ec_538,06, Urcuqui,ecua_cities.res_zone_ec_115
+res_parish_ec_539,01, Chantaco,ecua_cities.res_zone_ec_116
+res_parish_ec_540,02, Chuquiribamba,ecua_cities.res_zone_ec_116
+res_parish_ec_541,03, El Cisne,ecua_cities.res_zone_ec_116
+res_parish_ec_542,04, Gualel,ecua_cities.res_zone_ec_116
+res_parish_ec_543,05, Jimbilla,ecua_cities.res_zone_ec_116
+res_parish_ec_544,06, Loja,ecua_cities.res_zone_ec_116
+res_parish_ec_545,07, Malacatos (VALLADOLID),ecua_cities.res_zone_ec_116
+res_parish_ec_546,08, Quinara,ecua_cities.res_zone_ec_116
+res_parish_ec_547,09, San Lucas,ecua_cities.res_zone_ec_116
+res_parish_ec_548,10, San Pedro De Vilcabamba,ecua_cities.res_zone_ec_116
+res_parish_ec_549,11, Santiago,ecua_cities.res_zone_ec_116
+res_parish_ec_550,12, Taquil (MIGUEL Riofrio),ecua_cities.res_zone_ec_116
+res_parish_ec_551,13, Vilcabamba (VICTORIA),ecua_cities.res_zone_ec_116
+res_parish_ec_552,14, Yangana (ARSENIO Castillo),ecua_cities.res_zone_ec_116
+res_parish_ec_553,01, Cariamanga,ecua_cities.res_zone_ec_117
+res_parish_ec_554,02, Colaisaca,ecua_cities.res_zone_ec_117
+res_parish_ec_555,03, El Lucero,ecua_cities.res_zone_ec_117
+res_parish_ec_556,04, Sangillin,ecua_cities.res_zone_ec_117
+res_parish_ec_557,05, Utuana,ecua_cities.res_zone_ec_117
+res_parish_ec_558,01, Catamayo (LA Toma),ecua_cities.res_zone_ec_118
+res_parish_ec_559,02, El Tambo,ecua_cities.res_zone_ec_118
+res_parish_ec_560,03, Guayquichuma,ecua_cities.res_zone_ec_118
+res_parish_ec_561,04, San Pedro de La Bendita,ecua_cities.res_zone_ec_118
+res_parish_ec_562,05, Zambi,ecua_cities.res_zone_ec_118
+res_parish_ec_563,01, Celica,ecua_cities.res_zone_ec_119
+res_parish_ec_564,02, Cruzpamba,ecua_cities.res_zone_ec_119
+res_parish_ec_565,03, Pozul (SAN Juan de Pozul,ecua_cities.res_zone_ec_119
+res_parish_ec_566,04, Sabanilla,ecua_cities.res_zone_ec_119
+res_parish_ec_567,05, Tnte. Maximiliano Rodrig,ecua_cities.res_zone_ec_119
+res_parish_ec_568,01, Amarillos,ecua_cities.res_zone_ec_120
+res_parish_ec_569,02, Buenavista,ecua_cities.res_zone_ec_120
+res_parish_ec_570,03, Chaguarpamba,ecua_cities.res_zone_ec_120
+res_parish_ec_571,04, El Rosario,ecua_cities.res_zone_ec_120
+res_parish_ec_572,05, Santa Rufina,ecua_cities.res_zone_ec_120
+res_parish_ec_573,01, 27 De Abril,ecua_cities.res_zone_ec_121
+res_parish_ec_574,02, Amaluza,ecua_cities.res_zone_ec_121
+res_parish_ec_575,03, Bellavista,ecua_cities.res_zone_ec_121
+res_parish_ec_576,04, El Airo,ecua_cities.res_zone_ec_121
+res_parish_ec_577,05, El Ingenio,ecua_cities.res_zone_ec_121
+res_parish_ec_578,06, Jimbura,ecua_cities.res_zone_ec_121
+res_parish_ec_579,07, Santa Teresita,ecua_cities.res_zone_ec_121
+res_parish_ec_580,01, Changaimina (LA Libertad,ecua_cities.res_zone_ec_122
+res_parish_ec_581,02, Gonzanama,ecua_cities.res_zone_ec_122
+res_parish_ec_582,03, Nambacola,ecua_cities.res_zone_ec_122
+res_parish_ec_583,04, Purunuma (EGUIGUREN),ecua_cities.res_zone_ec_122
+res_parish_ec_584,05, Sacapalca,ecua_cities.res_zone_ec_122
+res_parish_ec_585,01, La Victoria,ecua_cities.res_zone_ec_123
+res_parish_ec_586,02, Larama,ecua_cities.res_zone_ec_123
+res_parish_ec_587,03, Macara,ecua_cities.res_zone_ec_123
+res_parish_ec_588,04, Sabiango (LA Capilla),ecua_cities.res_zone_ec_123
+res_parish_ec_589,01, Cangonama,ecua_cities.res_zone_ec_124
+res_parish_ec_590,02, Casanga,ecua_cities.res_zone_ec_124
+res_parish_ec_591,03, Catacocha,ecua_cities.res_zone_ec_124
+res_parish_ec_592,04, Guachanama,ecua_cities.res_zone_ec_124
+res_parish_ec_593,05, Lauro Guerrero,ecua_cities.res_zone_ec_124
+res_parish_ec_594,06, Orianga,ecua_cities.res_zone_ec_124
+res_parish_ec_595,07, San Antonio,ecua_cities.res_zone_ec_124
+res_parish_ec_596,08, Yamana,ecua_cities.res_zone_ec_124
+res_parish_ec_597,01, Alamor,ecua_cities.res_zone_ec_125
+res_parish_ec_598,02, Ciano,ecua_cities.res_zone_ec_125
+res_parish_ec_599,03, El Arenal,ecua_cities.res_zone_ec_125
+res_parish_ec_600,04, El Limo (MARIANA de Jesus),ecua_cities.res_zone_ec_125
+res_parish_ec_601,05, Mercadillo,ecua_cities.res_zone_ec_125
+res_parish_ec_602,06, Vicentino,ecua_cities.res_zone_ec_125
+res_parish_ec_603,01, El Paraiso De Celen,ecua_cities.res_zone_ec_126
+res_parish_ec_604,02, El Tablon,ecua_cities.res_zone_ec_126
+res_parish_ec_605,03, Lluzhapa,ecua_cities.res_zone_ec_126
+res_parish_ec_606,04, Manu,ecua_cities.res_zone_ec_126
+res_parish_ec_607,05, San Antonio de Qumbe,ecua_cities.res_zone_ec_126
+res_parish_ec_608,06, San Pablo De Tenta,ecua_cities.res_zone_ec_126
+res_parish_ec_609,07, San Sebastian de Yuluc,ecua_cities.res_zone_ec_126
+res_parish_ec_610,08, Saraguro,ecua_cities.res_zone_ec_126
+res_parish_ec_611,09, Selva Alegre,ecua_cities.res_zone_ec_126
+res_parish_ec_612,10, Sumaypamba,ecua_cities.res_zone_ec_126
+res_parish_ec_613,11, Urdaneta (PAQUISHAPA),ecua_cities.res_zone_ec_126
+res_parish_ec_614,01, Nueva Fatima,ecua_cities.res_zone_ec_127
+res_parish_ec_615,02, Sozoranga,ecua_cities.res_zone_ec_127
+res_parish_ec_616,03, Tacamoros,ecua_cities.res_zone_ec_127
+res_parish_ec_617,01, Bolaspamba,ecua_cities.res_zone_ec_128
+res_parish_ec_618,02, Cazaderos,ecua_cities.res_zone_ec_128
+res_parish_ec_619,03, Garzareal,ecua_cities.res_zone_ec_128
+res_parish_ec_620,04, Limones,ecua_cities.res_zone_ec_128
+res_parish_ec_621,05, Paletillas,ecua_cities.res_zone_ec_128
+res_parish_ec_622,06, Zapotillo,ecua_cities.res_zone_ec_128
+res_parish_ec_623,01, 12 De Diciembre,ecua_cities.res_zone_ec_129
+res_parish_ec_624,02, Chaquinal,ecua_cities.res_zone_ec_129
+res_parish_ec_625,03, Pindal,ecua_cities.res_zone_ec_129
+res_parish_ec_626,01, Fundochamba,ecua_cities.res_zone_ec_130
+res_parish_ec_627,02, Quilanga,ecua_cities.res_zone_ec_130
+res_parish_ec_628,03, San Antonio de Las Aradas,ecua_cities.res_zone_ec_130
+res_parish_ec_629,01, La Tingue,ecua_cities.res_zone_ec_131
+res_parish_ec_630,02, Olmedo,ecua_cities.res_zone_ec_131
+res_parish_ec_631,01, Babahoyo,ecua_cities.res_zone_ec_132
+res_parish_ec_632,02, Caracol,ecua_cities.res_zone_ec_132
+res_parish_ec_633,03, Febres Cordero (LAS Juntas),ecua_cities.res_zone_ec_132
+res_parish_ec_634,04, La Union,ecua_cities.res_zone_ec_132
+res_parish_ec_635,05, Pimocha,ecua_cities.res_zone_ec_132
+res_parish_ec_636,01, Baba,ecua_cities.res_zone_ec_133
+res_parish_ec_637,02, Guare,ecua_cities.res_zone_ec_133
+res_parish_ec_638,03, Isla De Bejucal,ecua_cities.res_zone_ec_133
+res_parish_ec_639,01, Montalvo,ecua_cities.res_zone_ec_134
+res_parish_ec_640,01, Puebloviejo,ecua_cities.res_zone_ec_135
+res_parish_ec_641,02, Puerto Pechiche,ecua_cities.res_zone_ec_135
+res_parish_ec_642,03, San Juan,ecua_cities.res_zone_ec_135
+res_parish_ec_643,01, La Esperanza,ecua_cities.res_zone_ec_136
+res_parish_ec_644,02, Quevedo,ecua_cities.res_zone_ec_136
+res_parish_ec_645,03, San Carlos,ecua_cities.res_zone_ec_136
+res_parish_ec_646,01, Catarama,ecua_cities.res_zone_ec_137
+res_parish_ec_647,02, Ricaurte,ecua_cities.res_zone_ec_137
+res_parish_ec_648,01, Ventanas,ecua_cities.res_zone_ec_138
+res_parish_ec_649,02, Zapotal,ecua_cities.res_zone_ec_138
+res_parish_ec_650,01, Antonio Sotomayor,ecua_cities.res_zone_ec_139
+res_parish_ec_651,02, Vinces,ecua_cities.res_zone_ec_139
+res_parish_ec_652,01, Palenque,ecua_cities.res_zone_ec_140
+res_parish_ec_653,01, Patricia Pilar,ecua_cities.res_zone_ec_141
+res_parish_ec_654,02, San Jacinto de Buena Fe,ecua_cities.res_zone_ec_141
+res_parish_ec_655,01, Valencia,ecua_cities.res_zone_ec_142
+res_parish_ec_656,01, Mocache,ecua_cities.res_zone_ec_143
+res_parish_ec_657,01, Quinsaloma,ecua_cities.res_zone_ec_144
+res_parish_ec_658,01, Abdon Calderon,ecua_cities.res_zone_ec_145
+res_parish_ec_659,02, Alhajuela (BAJO Grande),ecua_cities.res_zone_ec_145
+res_parish_ec_660,03, Chirijos,ecua_cities.res_zone_ec_145
+res_parish_ec_661,04, Crucita,ecua_cities.res_zone_ec_145
+res_parish_ec_662,05, Portoviejo,ecua_cities.res_zone_ec_145
+res_parish_ec_663,06, Pueblo Nuevo,ecua_cities.res_zone_ec_145
+res_parish_ec_664,07, Riochico (RIO Chico),ecua_cities.res_zone_ec_145
+res_parish_ec_665,08, San Placido,ecua_cities.res_zone_ec_145
+res_parish_ec_666,01, Calceta,ecua_cities.res_zone_ec_146
+res_parish_ec_667,02, Membrillo,ecua_cities.res_zone_ec_146
+res_parish_ec_668,03, Quiroga,ecua_cities.res_zone_ec_146
+res_parish_ec_669,01, Boyaca,ecua_cities.res_zone_ec_147
+res_parish_ec_670,02, Canuto,ecua_cities.res_zone_ec_147
+res_parish_ec_671,03, Chibunga,ecua_cities.res_zone_ec_147
+res_parish_ec_672,04, Chone,ecua_cities.res_zone_ec_147
+res_parish_ec_673,05, Convento,ecua_cities.res_zone_ec_147
+res_parish_ec_674,06, Eloy Alfaro,ecua_cities.res_zone_ec_147
+res_parish_ec_675,07, Ricaurte,ecua_cities.res_zone_ec_147
+res_parish_ec_676,08, San Antonio,ecua_cities.res_zone_ec_147
+res_parish_ec_677,01, El Carmen,ecua_cities.res_zone_ec_148
+res_parish_ec_678,02, San Pedro de Suma,ecua_cities.res_zone_ec_148
+res_parish_ec_679,03, Wilfrido Loor Moreira,ecua_cities.res_zone_ec_148
+res_parish_ec_680,01, Flavio Alfaro,ecua_cities.res_zone_ec_149
+res_parish_ec_681,02, San Francisco de Novillo,ecua_cities.res_zone_ec_149
+res_parish_ec_682,03, Zapallo,ecua_cities.res_zone_ec_149
+res_parish_ec_683,01, America,ecua_cities.res_zone_ec_150
+res_parish_ec_684,02, El Anegado,ecua_cities.res_zone_ec_150
+res_parish_ec_685,03, Jipijapa,ecua_cities.res_zone_ec_150
+res_parish_ec_686,04, Julcuy,ecua_cities.res_zone_ec_150
+res_parish_ec_687,05, La Union,ecua_cities.res_zone_ec_150
+res_parish_ec_688,06, Membrillal,ecua_cities.res_zone_ec_150
+res_parish_ec_689,07, Pedro Pablo Gomez,ecua_cities.res_zone_ec_150
+res_parish_ec_690,08, Puerto De Cayo,ecua_cities.res_zone_ec_150
+res_parish_ec_691,01, Junin,ecua_cities.res_zone_ec_151
+res_parish_ec_692,01, Manta,ecua_cities.res_zone_ec_152
+res_parish_ec_693,02, San Lorenzo,ecua_cities.res_zone_ec_152
+res_parish_ec_694,03, Santa Marianita,ecua_cities.res_zone_ec_152
+res_parish_ec_695,01, La Pila,ecua_cities.res_zone_ec_153
+res_parish_ec_696,02, Montecristi,ecua_cities.res_zone_ec_153
+res_parish_ec_697,01, Campozano,ecua_cities.res_zone_ec_154
+res_parish_ec_698,02, Cascol,ecua_cities.res_zone_ec_154
+res_parish_ec_699,03, Guale,ecua_cities.res_zone_ec_154
+res_parish_ec_700,04, Lascano,ecua_cities.res_zone_ec_154
+res_parish_ec_701,05, Pajan,ecua_cities.res_zone_ec_154
+res_parish_ec_702,01, Barraganete,ecua_cities.res_zone_ec_155
+res_parish_ec_703,02, Pichincha,ecua_cities.res_zone_ec_155
+res_parish_ec_704,03, San Sebastian,ecua_cities.res_zone_ec_155
+res_parish_ec_705,01, Rocafuerte,ecua_cities.res_zone_ec_156
+res_parish_ec_706,01, Ayacucho,ecua_cities.res_zone_ec_157
+res_parish_ec_707,02, Honorato Vasquez,ecua_cities.res_zone_ec_157
+res_parish_ec_708,03, La Union,ecua_cities.res_zone_ec_157
+res_parish_ec_709,04, San Pablo,ecua_cities.res_zone_ec_157
+res_parish_ec_710,05, Santa Ana de Vuelta Larga,ecua_cities.res_zone_ec_157
+res_parish_ec_711,01, Bahia De Caraquez,ecua_cities.res_zone_ec_158
+res_parish_ec_712,02, Charapoto,ecua_cities.res_zone_ec_158
+res_parish_ec_713,03, San Isidro,ecua_cities.res_zone_ec_158
+res_parish_ec_714,01, Angel Pedro Giler,ecua_cities.res_zone_ec_159
+res_parish_ec_715,02, Bachillero,ecua_cities.res_zone_ec_159
+res_parish_ec_716,03, Tosagua,ecua_cities.res_zone_ec_159
+res_parish_ec_717,01, Arq. Sixto Duran Ballen,ecua_cities.res_zone_ec_160
+res_parish_ec_718,02, Bellavista,ecua_cities.res_zone_ec_160
+res_parish_ec_719,03, Noboa,ecua_cities.res_zone_ec_160
+res_parish_ec_720,04, Sucre,ecua_cities.res_zone_ec_160
+res_parish_ec_721,01, 10 De Agosto,ecua_cities.res_zone_ec_161
+res_parish_ec_722,02, Atahualpa,ecua_cities.res_zone_ec_161
+res_parish_ec_723,03, Cojimies,ecua_cities.res_zone_ec_161
+res_parish_ec_724,04, Pedernales,ecua_cities.res_zone_ec_161
+res_parish_ec_725,01, Olmedo,ecua_cities.res_zone_ec_162
+res_parish_ec_726,01, Machalilla,ecua_cities.res_zone_ec_163
+res_parish_ec_727,02, Puerto Lopez,ecua_cities.res_zone_ec_163
+res_parish_ec_728,03, Salango,ecua_cities.res_zone_ec_163
+res_parish_ec_729,01, Jama,ecua_cities.res_zone_ec_164
+res_parish_ec_730,01, Jaramijo,ecua_cities.res_zone_ec_165
+res_parish_ec_731,01, Canoa,ecua_cities.res_zone_ec_166
+res_parish_ec_732,02, San Vicente,ecua_cities.res_zone_ec_166
+res_parish_ec_733,01, Alshi,ecua_cities.res_zone_ec_167
+res_parish_ec_734,02, Cuchaentza,ecua_cities.res_zone_ec_167
+res_parish_ec_735,03, General Proaño,ecua_cities.res_zone_ec_167
+res_parish_ec_736,04, Macas,ecua_cities.res_zone_ec_167
+res_parish_ec_737,05, Rio Blanco,ecua_cities.res_zone_ec_167
+res_parish_ec_738,06, San Isidro,ecua_cities.res_zone_ec_167
+res_parish_ec_739,07, Sevilla Don Bosco,ecua_cities.res_zone_ec_167
+res_parish_ec_740,08, Sinai,ecua_cities.res_zone_ec_167
+res_parish_ec_741,09, Zuña (ZUÑAC),ecua_cities.res_zone_ec_167
+res_parish_ec_742,01, Amazonas (ROSARIO De Cuyes),ecua_cities.res_zone_ec_168
+res_parish_ec_743,02, Bermejos,ecua_cities.res_zone_ec_168
+res_parish_ec_744,03, Bomboiza,ecua_cities.res_zone_ec_168
+res_parish_ec_745,04, Chiguinda,ecua_cities.res_zone_ec_168
+res_parish_ec_746,05, El Ideal,ecua_cities.res_zone_ec_168
+res_parish_ec_747,06, El Rosario,ecua_cities.res_zone_ec_168
+res_parish_ec_748,07, Gualaquiza,ecua_cities.res_zone_ec_168
+res_parish_ec_749,08, Nueva Tarqui,ecua_cities.res_zone_ec_168
+res_parish_ec_750,09, San Miguel de Cuyes,ecua_cities.res_zone_ec_168
+res_parish_ec_751,01, General Leonidas Plaza G.,ecua_cities.res_zone_ec_169
+res_parish_ec_752,02, Indanza,ecua_cities.res_zone_ec_169
+res_parish_ec_753,03, San Antonio,ecua_cities.res_zone_ec_169
+res_parish_ec_754,04, San Miguel de Conchay,ecua_cities.res_zone_ec_169
+res_parish_ec_755,05, Santa Susana de Chiviaza,ecua_cities.res_zone_ec_169
+res_parish_ec_756,06, Yunganza,ecua_cities.res_zone_ec_169
+res_parish_ec_757,01, 16 De Agosto,ecua_cities.res_zone_ec_170
+res_parish_ec_758,02, Arapicos,ecua_cities.res_zone_ec_170
+res_parish_ec_759,03, Cumanda,ecua_cities.res_zone_ec_170
+res_parish_ec_760,04, Palora (METZERA),ecua_cities.res_zone_ec_170
+res_parish_ec_761,05, Sangay,ecua_cities.res_zone_ec_170
+res_parish_ec_762,01, Chupianza,ecua_cities.res_zone_ec_171
+res_parish_ec_763,02, Copal,ecua_cities.res_zone_ec_171
+res_parish_ec_764,03, Patuca,ecua_cities.res_zone_ec_171
+res_parish_ec_765,04, San Francisco de Chinimb,ecua_cities.res_zone_ec_171
+res_parish_ec_766,05, San Luis de El Acho,ecua_cities.res_zone_ec_171
+res_parish_ec_767,06, Santiago,ecua_cities.res_zone_ec_171
+res_parish_ec_768,07, Santiago De Mendez,ecua_cities.res_zone_ec_171
+res_parish_ec_769,01, Asuncion,ecua_cities.res_zone_ec_172
+res_parish_ec_770,02, Huambi,ecua_cities.res_zone_ec_172
+res_parish_ec_771,03, Santa Marianita De Jesus,ecua_cities.res_zone_ec_172
+res_parish_ec_772,04, Sucua,ecua_cities.res_zone_ec_172
+res_parish_ec_773,01, Chiguaza,ecua_cities.res_zone_ec_173
+res_parish_ec_774,02, Huamboya,ecua_cities.res_zone_ec_173
+res_parish_ec_775,01, Pan De Azucar,ecua_cities.res_zone_ec_174
+res_parish_ec_776,02, San Carlos De Limon,ecua_cities.res_zone_ec_174
+res_parish_ec_777,03, San Jacinto de Wakambeis,ecua_cities.res_zone_ec_174
+res_parish_ec_778,04, San Juan Bosco,ecua_cities.res_zone_ec_174
+res_parish_ec_779,05, Santiago De Pananza,ecua_cities.res_zone_ec_174
+res_parish_ec_780,01, Huasaga,ecua_cities.res_zone_ec_175
+res_parish_ec_781,02, Macuma,ecua_cities.res_zone_ec_175
+res_parish_ec_782,03, Pumpuentsa,ecua_cities.res_zone_ec_175
+res_parish_ec_783,04, Taisha,ecua_cities.res_zone_ec_175
+res_parish_ec_784,05, Tutinentza,ecua_cities.res_zone_ec_175
+res_parish_ec_785,01, Logroño,ecua_cities.res_zone_ec_176
+res_parish_ec_786,02, Shimpis,ecua_cities.res_zone_ec_176
+res_parish_ec_787,03, Yaupi,ecua_cities.res_zone_ec_176
+res_parish_ec_788,01, Pablo Vi,ecua_cities.res_zone_ec_177
+res_parish_ec_789,01, San Jose De Morona,ecua_cities.res_zone_ec_178
+res_parish_ec_790,02, Tiwintza,ecua_cities.res_zone_ec_178
+res_parish_ec_791,01, Ahuano,ecua_cities.res_zone_ec_179
+res_parish_ec_792,02, Chontapunta,ecua_cities.res_zone_ec_179
+res_parish_ec_793,03, Pano,ecua_cities.res_zone_ec_179
+res_parish_ec_794,04, Puerto Misahualli,ecua_cities.res_zone_ec_179
+res_parish_ec_795,05, Puerto Napo,ecua_cities.res_zone_ec_179
+res_parish_ec_796,06, Talag,ecua_cities.res_zone_ec_179
+res_parish_ec_797,07, Tena,ecua_cities.res_zone_ec_179
+res_parish_ec_798,01, Archidona,ecua_cities.res_zone_ec_180
+res_parish_ec_799,02, Cotundo,ecua_cities.res_zone_ec_180
+res_parish_ec_800,03, San Pablo de Ushpayacu,ecua_cities.res_zone_ec_180
+res_parish_ec_801,01, El Chaco,ecua_cities.res_zone_ec_181
+res_parish_ec_802,02, Gonzalo Diaz de Pineda,ecua_cities.res_zone_ec_181
+res_parish_ec_803,03, Linares,ecua_cities.res_zone_ec_181
+res_parish_ec_804,04, Oyacachi,ecua_cities.res_zone_ec_181
+res_parish_ec_805,05, Santa Rosa,ecua_cities.res_zone_ec_181
+res_parish_ec_806,06, Sardinas,ecua_cities.res_zone_ec_181
+res_parish_ec_807,01, Baeza,ecua_cities.res_zone_ec_182
+res_parish_ec_808,02, Cosanga,ecua_cities.res_zone_ec_182
+res_parish_ec_809,03, Cuyuja,ecua_cities.res_zone_ec_182
+res_parish_ec_810,04, Papallacta,ecua_cities.res_zone_ec_182
+res_parish_ec_811,05, San Francisco de Borja,ecua_cities.res_zone_ec_182
+res_parish_ec_812,06, Sumaco,ecua_cities.res_zone_ec_182
+res_parish_ec_813,01, Carlos Julio Arosemena Tola,ecua_cities.res_zone_ec_183
+res_parish_ec_814,01, Canelos,ecua_cities.res_zone_ec_184
+res_parish_ec_815,02, Diez De Agosto,ecua_cities.res_zone_ec_184
+res_parish_ec_816,03, El Triunfo,ecua_cities.res_zone_ec_184
+res_parish_ec_817,04, Fatima,ecua_cities.res_zone_ec_184
+res_parish_ec_818,05, Montalvo (ANDOAS),ecua_cities.res_zone_ec_184
+res_parish_ec_819,06, Pomona,ecua_cities.res_zone_ec_184
+res_parish_ec_820,07, Puyo,ecua_cities.res_zone_ec_184
+res_parish_ec_821,08, Rio Corrientes,ecua_cities.res_zone_ec_184
+res_parish_ec_822,09, Rio Tigre,ecua_cities.res_zone_ec_184
+res_parish_ec_823,10, Sarayacu,ecua_cities.res_zone_ec_184
+res_parish_ec_824,11, Simon Bolivar,ecua_cities.res_zone_ec_184
+res_parish_ec_825,12, Tarqui,ecua_cities.res_zone_ec_184
+res_parish_ec_826,13, Teniente Hugo Ortiz,ecua_cities.res_zone_ec_184
+res_parish_ec_827,14, Veracruz (INDILLAMA),ecua_cities.res_zone_ec_184
+res_parish_ec_828,01, Madre Tierra,ecua_cities.res_zone_ec_185
+res_parish_ec_829,02, Mera,ecua_cities.res_zone_ec_185
+res_parish_ec_830,03, Shell,ecua_cities.res_zone_ec_185
+res_parish_ec_831,01, San Jose,ecua_cities.res_zone_ec_186
+res_parish_ec_832,02, Santa Clara,ecua_cities.res_zone_ec_186
+res_parish_ec_833,01, Arajuno,ecua_cities.res_zone_ec_187
+res_parish_ec_834,02, Curaray,ecua_cities.res_zone_ec_187
+res_parish_ec_835,01, Ascazubi,ecua_cities.res_zone_ec_188
+res_parish_ec_836,02, Cangahua,ecua_cities.res_zone_ec_188
+res_parish_ec_837,03, Cayambe,ecua_cities.res_zone_ec_188
+res_parish_ec_838,04, Olmedo (PESILLO),ecua_cities.res_zone_ec_188
+res_parish_ec_839,05, Oton,ecua_cities.res_zone_ec_188
+res_parish_ec_840,06, Santa Rosa de Cuzubamba,ecua_cities.res_zone_ec_188
+res_parish_ec_841,01, Aloag,ecua_cities.res_zone_ec_189
+res_parish_ec_842,02, Aloasi,ecua_cities.res_zone_ec_189
+res_parish_ec_843,03, Cutuglahua,ecua_cities.res_zone_ec_189
+res_parish_ec_844,04, El Chaupi,ecua_cities.res_zone_ec_189
+res_parish_ec_845,05, Machachi,ecua_cities.res_zone_ec_189
+res_parish_ec_846,06, Manuel Cornejo Astorga,ecua_cities.res_zone_ec_189
+res_parish_ec_847,07, Tambillo,ecua_cities.res_zone_ec_189
+res_parish_ec_848,08, Uyumbicho,ecua_cities.res_zone_ec_189
+res_parish_ec_849,01, La Esperanza,ecua_cities.res_zone_ec_190
+res_parish_ec_850,02, Malchingui,ecua_cities.res_zone_ec_190
+res_parish_ec_851,03, Tabacundo,ecua_cities.res_zone_ec_190
+res_parish_ec_852,04, Tocachi,ecua_cities.res_zone_ec_190
+res_parish_ec_853,05, Tupigachi,ecua_cities.res_zone_ec_190
+res_parish_ec_854,01, Cotogchoa,ecua_cities.res_zone_ec_191
+res_parish_ec_855,02, Rumipamba,ecua_cities.res_zone_ec_191
+res_parish_ec_856,03, Sangolqui,ecua_cities.res_zone_ec_191
+res_parish_ec_857,01, Mindo,ecua_cities.res_zone_ec_192
+res_parish_ec_858,02, San Miguel de Los Bancos,ecua_cities.res_zone_ec_192
+res_parish_ec_859,01, Pedro Vicente Maldonado,ecua_cities.res_zone_ec_193
+res_parish_ec_860,01, Puerto Quito,ecua_cities.res_zone_ec_194
+res_parish_ec_861,01, Ambatillo,ecua_cities.res_zone_ec_195
+res_parish_ec_862,02, Ambato,ecua_cities.res_zone_ec_195
+res_parish_ec_863,03, Atahualpa (CHISALATA),ecua_cities.res_zone_ec_195
+res_parish_ec_864,04, Augusto N. Martinez,ecua_cities.res_zone_ec_195
+res_parish_ec_865,05, Constantino Fernandez,ecua_cities.res_zone_ec_195
+res_parish_ec_866,06, Cunchibamba,ecua_cities.res_zone_ec_195
+res_parish_ec_867,07, Huachi Grande,ecua_cities.res_zone_ec_195
+res_parish_ec_868,08, Izamba,ecua_cities.res_zone_ec_195
+res_parish_ec_869,09, Juan Benigno Vela,ecua_cities.res_zone_ec_195
+res_parish_ec_870,10, Montalvo,ecua_cities.res_zone_ec_195
+res_parish_ec_871,11, Pasa,ecua_cities.res_zone_ec_195
+res_parish_ec_872,12, Picaigua,ecua_cities.res_zone_ec_195
+res_parish_ec_873,13, Pilaguin (PILAHUIN),ecua_cities.res_zone_ec_195
+res_parish_ec_874,14, Quisapincha (QUIZAPINCHA),ecua_cities.res_zone_ec_195
+res_parish_ec_875,15, San Bartolome De Pinllog,ecua_cities.res_zone_ec_195
+res_parish_ec_876,16, San Fernando,ecua_cities.res_zone_ec_195
+res_parish_ec_877,17, Santa Rosa,ecua_cities.res_zone_ec_195
+res_parish_ec_878,18, Totoras,ecua_cities.res_zone_ec_195
+res_parish_ec_879,19, Unamuncho,ecua_cities.res_zone_ec_195
+res_parish_ec_880,01, Baños,ecua_cities.res_zone_ec_196
+res_parish_ec_881,02, Lligua,ecua_cities.res_zone_ec_196
+res_parish_ec_882,03, Rio Negro,ecua_cities.res_zone_ec_196
+res_parish_ec_883,04, Rio Verde,ecua_cities.res_zone_ec_196
+res_parish_ec_884,05, Ulba,ecua_cities.res_zone_ec_196
+res_parish_ec_885,01, Cevallos,ecua_cities.res_zone_ec_197
+res_parish_ec_886,01, Mocha,ecua_cities.res_zone_ec_198
+res_parish_ec_887,02, Pinguili,ecua_cities.res_zone_ec_198
+res_parish_ec_888,01, El Triunfo,ecua_cities.res_zone_ec_199
+res_parish_ec_889,02, Los Andes,ecua_cities.res_zone_ec_199
+res_parish_ec_890,03, Patate,ecua_cities.res_zone_ec_199
+res_parish_ec_891,04, Sucre,ecua_cities.res_zone_ec_199
+res_parish_ec_892,01, Quero,ecua_cities.res_zone_ec_200
+res_parish_ec_893,02, Rumipamba,ecua_cities.res_zone_ec_200
+res_parish_ec_894,03, Yanayacu - Mochapata,ecua_cities.res_zone_ec_200
+res_parish_ec_895,01, Benitez (PACHANLICA),ecua_cities.res_zone_ec_201
+res_parish_ec_896,02, Bolivar,ecua_cities.res_zone_ec_201
+res_parish_ec_897,03, Chiquicha,ecua_cities.res_zone_ec_201
+res_parish_ec_898,04, Cotalo,ecua_cities.res_zone_ec_201
+res_parish_ec_899,05, El Rosario (RUMICHACA),ecua_cities.res_zone_ec_201
+res_parish_ec_900,06, Garcia Moreno (CHUMAQUI),ecua_cities.res_zone_ec_201
+res_parish_ec_901,07, Guambalo (HUAMBALO),ecua_cities.res_zone_ec_201
+res_parish_ec_902,08, Pelileo,ecua_cities.res_zone_ec_201
+res_parish_ec_903,09, Salasaca,ecua_cities.res_zone_ec_201
+res_parish_ec_904,01, Baquerizo Moreno,ecua_cities.res_zone_ec_202
+res_parish_ec_905,02, Emilio Maria Teran,ecua_cities.res_zone_ec_202
+res_parish_ec_906,03, Marcos Espinel (CHACATA),ecua_cities.res_zone_ec_202
+res_parish_ec_907,04, Pillaro,ecua_cities.res_zone_ec_202
+res_parish_ec_908,05, Presidente Urbina,ecua_cities.res_zone_ec_202
+res_parish_ec_909,06, San Andres,ecua_cities.res_zone_ec_202
+res_parish_ec_910,07, San Jose De Poalo,ecua_cities.res_zone_ec_202
+res_parish_ec_911,08, San Miguelito,ecua_cities.res_zone_ec_202
+res_parish_ec_912,01, Quinchicoto,ecua_cities.res_zone_ec_203
+res_parish_ec_913,02, Tisaleo,ecua_cities.res_zone_ec_204
+res_parish_ec_914,01, Cumbaratza,ecua_cities.res_zone_ec_204
+res_parish_ec_915,02, Guadalupe,ecua_cities.res_zone_ec_204
+res_parish_ec_916,03, Imbana,ecua_cities.res_zone_ec_204
+res_parish_ec_917,04, Sabanilla,ecua_cities.res_zone_ec_204
+res_parish_ec_918,05, San Carlos de Las Minas,ecua_cities.res_zone_ec_204
+res_parish_ec_919,06, Timbara,ecua_cities.res_zone_ec_204
+res_parish_ec_920,07, Zamora,ecua_cities.res_zone_ec_204
+res_parish_ec_921,01, Chito,ecua_cities.res_zone_ec_205
+res_parish_ec_922,02, El Chorro,ecua_cities.res_zone_ec_205
+res_parish_ec_923,03, La Chonta,ecua_cities.res_zone_ec_205
+res_parish_ec_924,04, Pucapamba,ecua_cities.res_zone_ec_205
+res_parish_ec_925,05, San Andres,ecua_cities.res_zone_ec_205
+res_parish_ec_926,06, Zumba,ecua_cities.res_zone_ec_205
+res_parish_ec_927,01, Guayzimi,ecua_cities.res_zone_ec_206
+res_parish_ec_928,02, Nuevo Paraiso,ecua_cities.res_zone_ec_206
+res_parish_ec_929,03, Zurmi,ecua_cities.res_zone_ec_206
+res_parish_ec_930,01, 28 De Mayo,ecua_cities.res_zone_ec_207
+res_parish_ec_931,02, La Paz,ecua_cities.res_zone_ec_207
+res_parish_ec_932,03, Tutupali,ecua_cities.res_zone_ec_207
+res_parish_ec_933,01, Chicaña,ecua_cities.res_zone_ec_208
+res_parish_ec_934,02, Los Encuentros,ecua_cities.res_zone_ec_208
+res_parish_ec_935,03, Yanzatza,ecua_cities.res_zone_ec_208
+res_parish_ec_936,01, El Guismi,ecua_cities.res_zone_ec_209
+res_parish_ec_937,02, El Pangui,ecua_cities.res_zone_ec_209
+res_parish_ec_938,03, Pachicutza,ecua_cities.res_zone_ec_209
+res_parish_ec_939,04, Tundayme,ecua_cities.res_zone_ec_209
+res_parish_ec_940,01, Zumbi,ecua_cities.res_zone_ec_210
+res_parish_ec_941,01, El Porvenir Del Carmen,ecua_cities.res_zone_ec_211
+res_parish_ec_942,02, La Canela,ecua_cities.res_zone_ec_211
+res_parish_ec_943,03, Palanda,ecua_cities.res_zone_ec_211
+res_parish_ec_944,04, San Francisco de Vergel,ecua_cities.res_zone_ec_211
+res_parish_ec_945,05, Valladolid,ecua_cities.res_zone_ec_211
+res_parish_ec_946,01, Bellavista,ecua_cities.res_zone_ec_212
+res_parish_ec_947,02, Nuevo Quito,ecua_cities.res_zone_ec_212
+res_parish_ec_948,03, Paquisha,ecua_cities.res_zone_ec_212
+res_parish_ec_949,01, El Progreso,ecua_cities.res_zone_ec_213
+res_parish_ec_950,02, Isla Santa Maria (FLOREANA),ecua_cities.res_zone_ec_213
+res_parish_ec_951,03, Puerto Baquerizo Moreno,ecua_cities.res_zone_ec_213
+res_parish_ec_952,01, Puerto Villamil,ecua_cities.res_zone_ec_214
+res_parish_ec_953,02, Tomas De Berlanga,ecua_cities.res_zone_ec_214
+res_parish_ec_954,01, Bellavista,ecua_cities.res_zone_ec_215
+res_parish_ec_955,02, Puerto Ayora,ecua_cities.res_zone_ec_215
+res_parish_ec_956,03, Santa Rosa,ecua_cities.res_zone_ec_215
+res_parish_ec_957,01, Dureno,ecua_cities.res_zone_ec_216
+res_parish_ec_958,02, El Eno,ecua_cities.res_zone_ec_216
+res_parish_ec_959,03, General Farfan,ecua_cities.res_zone_ec_216
+res_parish_ec_960,04, Jambeli,ecua_cities.res_zone_ec_216
+res_parish_ec_961,05, Nueva Loja,ecua_cities.res_zone_ec_216
+res_parish_ec_962,06, Pacayacu,ecua_cities.res_zone_ec_216
+res_parish_ec_963,07, Sta. Cecilia,ecua_cities.res_zone_ec_216
+res_parish_ec_964,01, El Reventador,ecua_cities.res_zone_ec_217
+res_parish_ec_965,02, Gonzalo Pizarro,ecua_cities.res_zone_ec_217
+res_parish_ec_966,03, Lumbaqui,ecua_cities.res_zone_ec_217
+res_parish_ec_967,04, Puerto Libre,ecua_cities.res_zone_ec_217
+res_parish_ec_968,01, Palma Roja,ecua_cities.res_zone_ec_218
+res_parish_ec_969,02, Puerto Bolivar,ecua_cities.res_zone_ec_218
+res_parish_ec_970,03, Puerto El Carmen Del Putumayo,ecua_cities.res_zone_ec_218
+res_parish_ec_971,04, Puerto Rodriguez,ecua_cities.res_zone_ec_218
+res_parish_ec_972,05, Santa Elena,ecua_cities.res_zone_ec_218
+res_parish_ec_973,01, Limoncocha,ecua_cities.res_zone_ec_219
+res_parish_ec_974,02, Pañacocha,ecua_cities.res_zone_ec_219
+res_parish_ec_975,03, San Pedro De Los Cofanes,ecua_cities.res_zone_ec_219
+res_parish_ec_976,04, San Roque,ecua_cities.res_zone_ec_219
+res_parish_ec_977,05, Shushufindi,ecua_cities.res_zone_ec_219
+res_parish_ec_978,06, Siete De Julio,ecua_cities.res_zone_ec_219
+res_parish_ec_979,01, El Playon de San Francis,ecua_cities.res_zone_ec_220
+res_parish_ec_980,02, La Bonita,ecua_cities.res_zone_ec_220
+res_parish_ec_981,03, La Sofia,ecua_cities.res_zone_ec_220
+res_parish_ec_982,04, Rosa Florida,ecua_cities.res_zone_ec_220
+res_parish_ec_983,05, Santa Barbara,ecua_cities.res_zone_ec_220
+res_parish_ec_984,01, El Dorado de Cascales,ecua_cities.res_zone_ec_221
+res_parish_ec_985,02, Santa Rosa de Sucumbios,ecua_cities.res_zone_ec_221
+res_parish_ec_986,03, Sevilla,ecua_cities.res_zone_ec_221
+res_parish_ec_987,01, Aguas Negras,ecua_cities.res_zone_ec_222
+res_parish_ec_988,02, Cuyabeno,ecua_cities.res_zone_ec_222
+res_parish_ec_989,03, Tarapoa,ecua_cities.res_zone_ec_222
+res_parish_ec_990,01, Alejandro Labaka,ecua_cities.res_zone_ec_223
+res_parish_ec_991,02, Dayuma,ecua_cities.res_zone_ec_223
+res_parish_ec_992,03, El Dorado,ecua_cities.res_zone_ec_223
+res_parish_ec_993,04, El Eden,ecua_cities.res_zone_ec_223
+res_parish_ec_994,05, Garcia Moreno,ecua_cities.res_zone_ec_223
+res_parish_ec_995,06, Ines Arango,ecua_cities.res_zone_ec_223
+res_parish_ec_996,07, La Belleza,ecua_cities.res_zone_ec_223
+res_parish_ec_997,08, Nuevo Paraiso,ecua_cities.res_zone_ec_223
+res_parish_ec_998,09, Puerto Francisco de Orellana,ecua_cities.res_zone_ec_223
+res_parish_ec_999,10, San Jose de Guayusa,ecua_cities.res_zone_ec_223
+res_parish_ec_1000,11, San Luis de Armenia,ecua_cities.res_zone_ec_223
+res_parish_ec_1001,12, Taracoa,ecua_cities.res_zone_ec_223
+res_parish_ec_1002,01, Capitan Augusto Ribadeneyra,ecua_cities.res_zone_ec_224
+res_parish_ec_1003,02, Cononaco,ecua_cities.res_zone_ec_224
+res_parish_ec_1004,03, Nuevo Rocafuerte,ecua_cities.res_zone_ec_224
+res_parish_ec_1005,04, Santa Maria de Huiririma,ecua_cities.res_zone_ec_224
+res_parish_ec_1006,05, Tiputini,ecua_cities.res_zone_ec_224
+res_parish_ec_1007,06, Yasuni,ecua_cities.res_zone_ec_224
+res_parish_ec_1008,01, Enokanqui,ecua_cities.res_zone_ec_225
+res_parish_ec_1009,02, La Joya de Los Sachas,ecua_cities.res_zone_ec_225
+res_parish_ec_1010,03, Lago San Pedro,ecua_cities.res_zone_ec_225
+res_parish_ec_1011,04, Pompeya,ecua_cities.res_zone_ec_225
+res_parish_ec_1012,05, Rumipamba,ecua_cities.res_zone_ec_225
+res_parish_ec_1013,06, San Carlos,ecua_cities.res_zone_ec_225
+res_parish_ec_1014,07, San Sebastian Del Coca,ecua_cities.res_zone_ec_225
+res_parish_ec_1015,08, Tres De Noviembre,ecua_cities.res_zone_ec_225
+res_parish_ec_1016,09, Union Milagreña,ecua_cities.res_zone_ec_225
+res_parish_ec_1017,01, Avila,ecua_cities.res_zone_ec_226
+res_parish_ec_1018,02, Loreto,ecua_cities.res_zone_ec_226
+res_parish_ec_1019,03, Puerto Murialdo,ecua_cities.res_zone_ec_226
+res_parish_ec_1020,04, San Jose de Dahuano,ecua_cities.res_zone_ec_226
+res_parish_ec_1021,05, San Jose de Payamino,ecua_cities.res_zone_ec_226
+res_parish_ec_1022,06, San Vicente de Huaticocha,ecua_cities.res_zone_ec_226
+res_parish_ec_1023,01, Alluriquin,ecua_cities.res_zone_ec_227
+res_parish_ec_1024,02, El Esfuerzo,ecua_cities.res_zone_ec_227
+res_parish_ec_1025,03, Luz de America,ecua_cities.res_zone_ec_227
+res_parish_ec_1026,04, Puerto Limon,ecua_cities.res_zone_ec_227
+res_parish_ec_1027,05, San Jacinto Del Bua,ecua_cities.res_zone_ec_227
+res_parish_ec_1028,06, Santa Maria Del Toachi,ecua_cities.res_zone_ec_227
+res_parish_ec_1029,07, Santo Domingo de Los Colorados,ecua_cities.res_zone_ec_227
+res_parish_ec_1030,08, Valle Hermoso,ecua_cities.res_zone_ec_227
+res_parish_ec_1031,01, Atahualpa,ecua_cities.res_zone_ec_228
+res_parish_ec_1032,02, Chanduy,ecua_cities.res_zone_ec_228
+res_parish_ec_1033,03, Colonche,ecua_cities.res_zone_ec_228
+res_parish_ec_1034,04, Manglaralto,ecua_cities.res_zone_ec_228
+res_parish_ec_1035,05, San Jose De Ancon,ecua_cities.res_zone_ec_228
+res_parish_ec_1036,06, Santa Elena,ecua_cities.res_zone_ec_228
+res_parish_ec_1037,07, Simon Bolivar,ecua_cities.res_zone_ec_228
+res_parish_ec_1038,01, La Libertad,ecua_cities.res_zone_ec_229
+res_parish_ec_1039,01, Anconcito,ecua_cities.res_zone_ec_230
+res_parish_ec_1040,02, Jose Luis Tamayo,ecua_cities.res_zone_ec_230
+res_parish_ec_1041,03, Salinas,ecua_cities.res_zone_ec_230

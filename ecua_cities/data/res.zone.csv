@@ -1,0 +1,230 @@
+id,city_id/id,code,name
+res_zone_ec_1,__export__.res_city_179,01,Adm. Eugenio Espejo
+res_zone_ec_2,__export__.res_city_179,02,Adm. Manuela Sáenz
+res_zone_ec_3,__export__.res_city_179,03,Adm. Eloy Alfaro
+res_zone_ec_4,__export__.res_city_179,04,Adm. Quitumbe
+res_zone_ec_5,__export__.res_city_179,05,Adm. Calderón
+res_zone_ec_6,__export__.res_city_179,06,Adm. Tumbaco
+res_zone_ec_7,__export__.res_city_179,07,Adm. Los Chillos
+res_zone_ec_8,__export__.res_city_179,08,Adm. La Delicia
+res_zone_ec_10,__export__.res_city_1,01,Cuenca
+res_zone_ec_11,__export__.res_city_2,02,Girón
+res_zone_ec_12,__export__.res_city_3,03,Gualaceo
+res_zone_ec_13,__export__.res_city_4,04,Nabon
+res_zone_ec_14,__export__.res_city_5,05,Paute
+res_zone_ec_15,__export__.res_city_6,06,Pucara
+res_zone_ec_16,__export__.res_city_7,07,San Fernando
+res_zone_ec_17,__export__.res_city_8,08,Santa Isabel
+res_zone_ec_18,__export__.res_city_9,09,Sigsig
+res_zone_ec_19,__export__.res_city_10,10,Ona
+res_zone_ec_20,__export__.res_city_11,11,Chordeleg
+res_zone_ec_21,__export__.res_city_12,12,El Pan
+res_zone_ec_22,__export__.res_city_13,13,Sevilla De Oro
+res_zone_ec_23,__export__.res_city_14,14,Guachapala
+res_zone_ec_24,__export__.res_city_15,15,Camilo Ponce  Enriquez
+res_zone_ec_25,__export__.res_city_16,01,Guaranda
+res_zone_ec_26,__export__.res_city_17,02,Chillanes
+res_zone_ec_27,__export__.res_city_18,03,Chimbo
+res_zone_ec_28,__export__.res_city_19,04,Echeandía
+res_zone_ec_29,__export__.res_city_20,05,San Miguel
+res_zone_ec_30,__export__.res_city_21,06,Caluma
+res_zone_ec_31,__export__.res_city_22,07,Las Naves
+res_zone_ec_32,__export__.res_city_23,01,Azogues
+res_zone_ec_33,__export__.res_city_24,02,Biblián
+res_zone_ec_34,__export__.res_city_25,03,Cañar
+res_zone_ec_35,__export__.res_city_26,04,La Troncal
+res_zone_ec_36,__export__.res_city_27,05,El Tambo
+res_zone_ec_37,__export__.res_city_28,06,Déeleg
+res_zone_ec_38,__export__.res_city_29,07,Suscal
+res_zone_ec_39,__export__.res_city_30,01,Tulcán
+res_zone_ec_40,__export__.res_city_31,02,Bolívar
+res_zone_ec_41,__export__.res_city_32,03,Espejo
+res_zone_ec_42,__export__.res_city_33,04,Mira
+res_zone_ec_43,__export__.res_city_34,05,Montúfar
+res_zone_ec_44,__export__.res_city_35,06,San Pedro De Huaca
+res_zone_ec_45,__export__.res_city_36,01,Latacunga
+res_zone_ec_46,__export__.res_city_37,02,La Maná
+res_zone_ec_47,__export__.res_city_38,03,Pangua
+res_zone_ec_48,__export__.res_city_39,04,Pujilí
+res_zone_ec_49,__export__.res_city_40,05,Salcedo
+res_zone_ec_50,__export__.res_city_41,06,Saquisilí
+res_zone_ec_51,__export__.res_city_42,07,Sigchos
+res_zone_ec_52,__export__.res_city_43,01,Riobamba
+res_zone_ec_53,__export__.res_city_44,02,Alausí
+res_zone_ec_54,__export__.res_city_45,03,Colta
+res_zone_ec_55,__export__.res_city_46,04,Chambo
+res_zone_ec_56,__export__.res_city_47,05,Chunchi
+res_zone_ec_57,__export__.res_city_48,06,Guamote
+res_zone_ec_58,__export__.res_city_49,07,Guano
+res_zone_ec_59,__export__.res_city_50,08,Pallatanga
+res_zone_ec_60,__export__.res_city_51,09,Penipe
+res_zone_ec_61,__export__.res_city_52,10,Cumandá
+res_zone_ec_62,__export__.res_city_53,01,Machala
+res_zone_ec_63,__export__.res_city_54,02,Arenillas
+res_zone_ec_64,__export__.res_city_55,03,Atahualpa
+res_zone_ec_65,__export__.res_city_56,04,Balsas
+res_zone_ec_66,__export__.res_city_57,05,Chilla
+res_zone_ec_67,__export__.res_city_58,06,El Guabo
+res_zone_ec_68,__export__.res_city_59,07,Huaquillas
+res_zone_ec_69,__export__.res_city_60,08,Marcabelí
+res_zone_ec_70,__export__.res_city_61,09,Pasaje
+res_zone_ec_71,__export__.res_city_62,10,Piñas
+res_zone_ec_72,__export__.res_city_63,11,Portovelo
+res_zone_ec_73,__export__.res_city_64,12,Santa Rosa
+res_zone_ec_74,__export__.res_city_65,13,Zaruma
+res_zone_ec_75,__export__.res_city_66,14,Las Lajas
+res_zone_ec_76,__export__.res_city_67,01,Esmeraldas
+res_zone_ec_77,__export__.res_city_68,02,Eloy Alfaro
+res_zone_ec_78,__export__.res_city_69,03,Muisne
+res_zone_ec_79,__export__.res_city_70,04,Quinindé
+res_zone_ec_80,__export__.res_city_71,05,San Lorenzo
+res_zone_ec_81,__export__.res_city_72,06,Atacames
+res_zone_ec_82,__export__.res_city_73,07,Rioverde
+res_zone_ec_83,__export__.res_city_74,08,La Concordia
+res_zone_ec_84,__export__.res_city_75,01,Guayaquil
+res_zone_ec_85,__export__.res_city_76,02,Alfredo Baquerizo Moreno
+res_zone_ec_86,__export__.res_city_77,03,(JUJÁN)
+res_zone_ec_87,__export__.res_city_78,04,Balao
+res_zone_ec_88,__export__.res_city_79,05,Balzar
+res_zone_ec_89,__export__.res_city_80,06,Colimes
+res_zone_ec_90,__export__.res_city_81,07,Daule
+res_zone_ec_91,__export__.res_city_82,08,Durán
+res_zone_ec_92,__export__.res_city_83,09,El Empalme
+res_zone_ec_93,__export__.res_city_84,10,El Triunfo
+res_zone_ec_94,__export__.res_city_85,11,Milagro
+res_zone_ec_95,__export__.res_city_86,12,Naranjal
+res_zone_ec_96,__export__.res_city_87,13,Naranjito
+res_zone_ec_97,__export__.res_city_88,14,Palestina
+res_zone_ec_98,__export__.res_city_89,15,Pedro Carbo
+res_zone_ec_99,__export__.res_city_90,16,Samborondón
+res_zone_ec_100,__export__.res_city_91,17,Santa Lucía
+res_zone_ec_101,__export__.res_city_92,18,Salitre (URBINA Jado)
+res_zone_ec_102,__export__.res_city_93,19,San Jacinto De Yaguachi
+res_zone_ec_103,__export__.res_city_94,20,Playas
+res_zone_ec_104,__export__.res_city_95,21,Simón Bolívar
+res_zone_ec_105,__export__.res_city_96,22,Coronel Marcelino Maridueña
+res_zone_ec_106,__export__.res_city_97,23,Lomas De Sargentillo
+res_zone_ec_107,__export__.res_city_98,24,Nobol
+res_zone_ec_108,__export__.res_city_99,25,General Antonio Elizalde (BUCAY)
+res_zone_ec_109,__export__.res_city_100,26,Isidro Ayora
+res_zone_ec_110,__export__.res_city_101,01,Ibarra
+res_zone_ec_111,__export__.res_city_102,02,Antonio Ante
+res_zone_ec_112,__export__.res_city_103,03,Cotacachi
+res_zone_ec_113,__export__.res_city_104,04,Otavalo
+res_zone_ec_114,__export__.res_city_105,05,Pimampiro
+res_zone_ec_115,__export__.res_city_106,06,San Miguel De Urcuquí
+res_zone_ec_116,__export__.res_city_107,01,Loja 
+res_zone_ec_117,__export__.res_city_108,02,Calvas
+res_zone_ec_118,__export__.res_city_109,03,Catamayo
+res_zone_ec_119,__export__.res_city_110,04,Celica
+res_zone_ec_120,__export__.res_city_111,05,Chaguarpamba
+res_zone_ec_121,__export__.res_city_112,06,Espíndola
+res_zone_ec_122,__export__.res_city_113,07,Gonzanamá
+res_zone_ec_123,__export__.res_city_114,08,Macará
+res_zone_ec_124,__export__.res_city_115,09,Paltas
+res_zone_ec_125,__export__.res_city_116,10,Puyango
+res_zone_ec_126,__export__.res_city_117,11,Saraguro
+res_zone_ec_127,__export__.res_city_118,12,Sozoranga
+res_zone_ec_128,__export__.res_city_119,13,Zapotillo
+res_zone_ec_129,__export__.res_city_120,14,Pindal
+res_zone_ec_130,__export__.res_city_121,15,Quilanga
+res_zone_ec_131,__export__.res_city_122,16,Olmedo
+res_zone_ec_132,__export__.res_city_123,01,Babahoyo
+res_zone_ec_133,__export__.res_city_124,02,Baba
+res_zone_ec_134,__export__.res_city_125,03,Montalvo
+res_zone_ec_135,__export__.res_city_126,04,Puebloviejo
+res_zone_ec_136,__export__.res_city_127,05,Quevedo
+res_zone_ec_137,__export__.res_city_128,06,Urdaneta
+res_zone_ec_138,__export__.res_city_129,07,Ventanas
+res_zone_ec_139,__export__.res_city_130,08,Vinces
+res_zone_ec_140,__export__.res_city_131,09,Palenque
+res_zone_ec_141,__export__.res_city_132,10,Buena Fé
+res_zone_ec_142,__export__.res_city_133,11,Valencia
+res_zone_ec_143,__export__.res_city_134,12,Mocache
+res_zone_ec_144,__export__.res_city_135,13,Quinsaloma
+res_zone_ec_145,__export__.res_city_136,01,Portoviejo
+res_zone_ec_146,__export__.res_city_137,02,Bolívar
+res_zone_ec_147,__export__.res_city_138,03,Chone
+res_zone_ec_148,__export__.res_city_139,04,El Carmen
+res_zone_ec_149,__export__.res_city_140,05,Flavio Alfaro
+res_zone_ec_150,__export__.res_city_141,06,Jipijapa
+res_zone_ec_151,__export__.res_city_142,07,Junín 
+res_zone_ec_152,__export__.res_city_143,08,Manta
+res_zone_ec_153,__export__.res_city_144,09,Montecristi
+res_zone_ec_154,__export__.res_city_145,10,Paján
+res_zone_ec_155,__export__.res_city_146,11,Pichincha
+res_zone_ec_156,__export__.res_city_147,12,Rocafuerte
+res_zone_ec_157,__export__.res_city_148,13,Santa Ana
+res_zone_ec_158,__export__.res_city_149,14,Sucre
+res_zone_ec_159,__export__.res_city_150,15,Tosagua
+res_zone_ec_160,__export__.res_city_151,16,24 De Mayo
+res_zone_ec_161,__export__.res_city_152,17,Pedernales
+res_zone_ec_162,__export__.res_city_153,18,Olmedo
+res_zone_ec_163,__export__.res_city_154,19,Puerto López
+res_zone_ec_164,__export__.res_city_155,20,Jama
+res_zone_ec_165,__export__.res_city_156,21,Jaramijó
+res_zone_ec_166,__export__.res_city_157,01,San Vicente
+res_zone_ec_167,__export__.res_city_158,02,Morona
+res_zone_ec_168,__export__.res_city_159,03,Gualaquiza
+res_zone_ec_169,__export__.res_city_160,04,Limón Indanza
+res_zone_ec_170,__export__.res_city_161,05,Palora
+res_zone_ec_171,__export__.res_city_162,06,Santiago
+res_zone_ec_172,__export__.res_city_163,07,Sucúa
+res_zone_ec_173,__export__.res_city_164,08,Huamboya
+res_zone_ec_174,__export__.res_city_165,09,San Juan Bosco
+res_zone_ec_175,__export__.res_city_166,10,Taisha
+res_zone_ec_176,__export__.res_city_167,11,Logroño
+res_zone_ec_177,__export__.res_city_168,12,Pablo Sexto
+res_zone_ec_178,__export__.res_city_169,13,Tiwintza
+res_zone_ec_179,__export__.res_city_170,01,Tena
+res_zone_ec_180,__export__.res_city_171,02,Archidona
+res_zone_ec_181,__export__.res_city_172,03,El Chaco
+res_zone_ec_182,__export__.res_city_173,04,Quijos
+res_zone_ec_183,__export__.res_city_174,05,Carlos Julio Arosemena Tola
+res_zone_ec_184,__export__.res_city_175,01,Pastaza
+res_zone_ec_185,__export__.res_city_176,02,Mera
+res_zone_ec_186,__export__.res_city_177,03,Santa Clara
+res_zone_ec_187,__export__.res_city_178,04,Arajuno
+res_zone_ec_188,__export__.res_city_180,01,Cayambe
+res_zone_ec_189,__export__.res_city_181,02,Mejía
+res_zone_ec_190,__export__.res_city_182,03,Pedro Moncayo
+res_zone_ec_191,__export__.res_city_183,04,Rumiñahui
+res_zone_ec_192,__export__.res_city_184,05,San Miguel De Los Bancos
+res_zone_ec_193,__export__.res_city_185,06,Pedro Vicente Maldonado
+res_zone_ec_194,__export__.res_city_186,07,Puerto Quito
+res_zone_ec_195,__export__.res_city_187,01,Ambato
+res_zone_ec_196,__export__.res_city_188,02,Baños De Agua Santa
+res_zone_ec_197,__export__.res_city_189,03,Cevallos
+res_zone_ec_198,__export__.res_city_190,04,Mocha
+res_zone_ec_199,__export__.res_city_191,05,Patate
+res_zone_ec_200,__export__.res_city_192,06,Quero
+res_zone_ec_201,__export__.res_city_193,07,San Pedro De Pelileo
+res_zone_ec_202,__export__.res_city_194,08,Santiago De Píllaro
+res_zone_ec_203,__export__.res_city_195,09,Tisaleo
+res_zone_ec_204,__export__.res_city_196,01,Zamora
+res_zone_ec_205,__export__.res_city_197,02,Chinchipe
+res_zone_ec_206,__export__.res_city_198,03,Nangaritza
+res_zone_ec_207,__export__.res_city_199,04,Yacuambí
+res_zone_ec_208,__export__.res_city_200,05,Yantzaza
+res_zone_ec_209,__export__.res_city_201,06,El Pangui
+res_zone_ec_210,__export__.res_city_202,07,Centinela Del Cóndor
+res_zone_ec_211,__export__.res_city_203,08,Palanda
+res_zone_ec_212,__export__.res_city_204,09,Paquisha
+res_zone_ec_213,__export__.res_city_205,01,San Cristóbal
+res_zone_ec_214,__export__.res_city_206,02,Isabela
+res_zone_ec_215,__export__.res_city_207,03,Santa Cruz
+res_zone_ec_216,__export__.res_city_208,01,Lago Agrio
+res_zone_ec_217,__export__.res_city_209,02,Gonzalo Pizarro
+res_zone_ec_218,__export__.res_city_210,03,Putumayo
+res_zone_ec_219,__export__.res_city_211,04,Shushufindi
+res_zone_ec_220,__export__.res_city_212,05,Sucumbíos
+res_zone_ec_221,__export__.res_city_213,06,Cascales
+res_zone_ec_222,__export__.res_city_214,07,Cuyabeno
+res_zone_ec_223,__export__.res_city_215,01,Orellana
+res_zone_ec_224,__export__.res_city_216,02,Aguarico
+res_zone_ec_225,__export__.res_city_217,03,La Joya De Los Sachas
+res_zone_ec_226,__export__.res_city_218,04,Loreto
+res_zone_ec_227,__export__.res_city_219,01,Santo Domingo
+res_zone_ec_228,__export__.res_city_220,01,Santa Elena
+res_zone_ec_229,__export__.res_city_221,02,La Libertad
+res_zone_ec_230,__export__.res_city_222,03,Salinas

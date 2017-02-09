@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<openerp>
+   <data>
+ 		<!--
+        vista para parroquia
+        -->
+       
+  <record id="view_parish_tree" model="ir.ui.view">
+            <field name="name">res.parish.tree</field>
+            <field name="model">res.parish</field>
+             <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Parish">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="zone_id"/>
+                    <field name="city_id"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="view_parish_form" model="ir.ui.view">
+            <field name="name">res.parish.form</field>
+            <field name="model">res.parish</field>
+            <field name="arch" type="xml">
+                <form string="Parish" version="7.0">
+                    <group>
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="zone_id"/>
+                        <field name="city_id"/>
+                        <field name="active"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        <record id="view_res_parish_action" model="ir.actions.act_window">
+            <field name="name">Parishes</field>
+             <field name="res_model">res.parish</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_parish_tree"/>
+            <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+            Click to define a new parish.
+            </p><p></p>
+            If you are working on the Ecuadorian market, you can manage the different Parish you are working on from here. Each zone is attached to one city.
+            </field>
+        </record>
+        
+        <menuitem name="Parishes" id="parish_menu" action="view_res_parish_action" sequence="4" parent="base.menu_localisation"/>   
+        
+          </data>
+     </openerp>        

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<openerp>
+   <data>
+ 		<!--
+        vista para zona
+        -->
+       
+  <record id="view_zone_tree" model="ir.ui.view">
+            <field name="name">res.zone.tree</field>
+            <field name="model">res.zone</field>
+             <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Zone">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="city_id"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+        
+        <record id="view_city_form" model="ir.ui.view">
+            <field name="name">res.zone.form</field>
+            <field name="model">res.zone</field>
+            <field name="arch" type="xml">
+                <form string="Zone" version="7.0">
+                    <group>
+                        <field name="name"/>
+                        <field name="code"/>
+                        <field name="city_id"/>
+                        <field name="active"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+        
+        <record id="view_res_zone_action" model="ir.actions.act_window">
+            <field name="name">Zones</field>
+             <field name="res_model">res.zone</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_zone_tree"/>
+            <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+            Click to define a new zone.
+            </p><p></p>
+            If you are working on the Ecuadorian market, you can manage the different Zones you are working on from here. Each city is attached to one state.
+            </field>
+        </record>
+        
+        <menuitem name="Zones" id="zone_menu" action="view_res_zone_action" sequence="3" parent="base.menu_localisation"/>   
+        
+          </data>
+     </openerp>        

@@ -1,0 +1,223 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* ecua_cities
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-24 17:44+0000\n"
+"PO-Revision-Date: 2014-12-24 17:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ecua_cities
+#: view:res.city:0
+#: field:res.parish,city_id:0
+#: view:res.partner:0
+#: field:res.partner,city_id:0
+#: field:res.zone,city_id:0
+msgid "City"
+msgstr "Ciudad"
+
+#. module: ecua_cities
+#: view:res.partner:0
+msgid "Zip"
+msgstr "Código Postal"
+
+#. module: ecua_cities
+#: model:ir.actions.act_window,help:ecua_cities.view_res_zone_action
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"            Click to define a new zone.\n"
+"            </p><p/>\n"
+"            If you are working on the Ecuadorian market, you can manage the different Zones you are working on from here. Each city is attached to one state.\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"            Haga click aqu&iacute; para definir una nueva zona.\n"
+"            </p><p/>\n"
+"            Si usted est&aacute; trabajando en el mercado ecuatoriano, puede administrar las diferentes zonas en las que est&aacute; trabajando. Cada ciudad pertenece a una provincia.\n"
+"            "
+
+#. module: ecua_cities
+#: help:res.parish,city_id:0
+msgid "The city associated with the zone and parish"
+msgstr "La ciudad asociada con la zona y la parroquia"
+
+#. module: ecua_cities
+#: help:res.city,state_id:0
+msgid "Select the state associated to the cities ejm: State Pichincha City Quito "
+msgstr "Seleccione la provincia asociada a las ciudades, como: Provincia Pichincha - Ciudad Quito"
+
+#. module: ecua_cities
+#: model:ir.actions.act_window,help:ecua_cities.view_res_parish_action
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"            Click to define a new parish.\n"
+"            </p><p/>\n"
+"            If you are working on the Ecuadorian market, you can manage the different Parish you are working on from here. Each zone is attached to one city.\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"            Haga click aqu&iacute; para definir una nueva parroquia.\n"
+"            </p><p/>\n"
+"            Si usted est&aacute; trabajando en el mercado ecuatoriano, puede administrar las diferentes parroquias en las que trabaja. Cada zona se adjunta a una ciudad.\n"
+"            "
+
+#. module: ecua_cities
+#: field:res.city,state_id:0
+#: view:res.partner:0
+msgid "State"
+msgstr "Provincia"
+
+#. module: ecua_cities
+#: help:res.parish,zone_id:0
+msgid "Select the associated area parishes"
+msgstr "Seleccione las parroquias de área asociadas"
+
+#. module: ecua_cities
+#: model:ir.model,name:ecua_cities.model_res_parish
+msgid "res.parish"
+msgstr "res.parish"
+
+#. module: ecua_cities
+#: field:res.zone,name:0
+msgid "Zone Name"
+msgstr "Nombre de Zona"
+
+#. module: ecua_cities
+#: field:res.zone,code:0
+msgid "Zone Code"
+msgstr "Código de Zona"
+
+#. module: ecua_cities
+#: field:res.parish,zone_id:0
+#: view:res.partner:0
+#: field:res.partner,zone_id:0
+#: view:res.zone:0
+msgid "Zone"
+msgstr "Zona"
+
+#. module: ecua_cities
+#: view:res.partner:0
+msgid "onchange_country(country_id)"
+msgstr "onchange_country(country_id)"
+
+#. module: ecua_cities
+#: help:res.zone,code:0
+msgid "The zone code in max. three chars."
+msgstr "El código de zona en máximo 3 caracteres."
+
+#. module: ecua_cities
+#: field:res.city,code:0
+msgid "City Code"
+msgstr "Código de Ciudad"
+
+#. module: ecua_cities
+#: view:res.parish:0
+#: view:res.partner:0
+#: field:res.partner,parish_id:0
+msgid "Parish"
+msgstr "Parroquia"
+
+#. module: ecua_cities
+#: model:ir.actions.act_window,name:ecua_cities.view_res_city_action
+#: model:ir.ui.menu,name:ecua_cities.city_menu
+msgid "Cities"
+msgstr "Ciudades"
+
+#. module: ecua_cities
+#: model:ir.model,name:ecua_cities.model_res_city
+msgid "res.city"
+msgstr "res.city"
+
+#. module: ecua_cities
+#: field:res.parish,name:0
+msgid "Parish Name"
+msgstr "Nombre de Parroquia"
+
+#. module: ecua_cities
+#: field:res.country.state,state_ids:0
+msgid "state_id"
+msgstr "state_id"
+
+#. module: ecua_cities
+#: field:res.city,name:0
+msgid "City Name"
+msgstr "Nombre de Ciudad"
+
+#. module: ecua_cities
+#: help:res.parish,code:0
+msgid "The parish code in max. three chars."
+msgstr "El código de parroquia en máximo 3 caracteres."
+
+#. module: ecua_cities
+#: model:ir.model,name:ecua_cities.model_res_zone
+msgid "res.zone"
+msgstr "res.zone"
+
+#. module: ecua_cities
+#: help:res.parish,name:0
+msgid "Administrative divisions of parish."
+msgstr "Divisiones administrativas de la parroquia."
+
+#. module: ecua_cities
+#: model:ir.actions.act_window,name:ecua_cities.view_res_parish_action
+#: model:ir.ui.menu,name:ecua_cities.parish_menu
+msgid "Parishes"
+msgstr "Parroquias"
+
+#. module: ecua_cities
+#: help:res.zone,name:0
+msgid "Administrative divisions of the city."
+msgstr "Divisiones administrativas de la ciudad."
+
+#. module: ecua_cities
+#: field:res.parish,code:0
+msgid "Parish Code"
+msgstr "Código de Parroquia"
+
+#. module: ecua_cities
+#: help:res.zone,city_id:0
+msgid "Select the city associated with areas ejm: City Quito Zone Adm. Quitumbe  "
+msgstr "Seleccione la ciudad asociada con áreas, como: Ciudad Quito y Zona Adm. Quitumbe  "
+
+#. module: ecua_cities
+#: help:res.city,code:0
+msgid "The city code in max. three chars."
+msgstr "El código de ciudad en máximo 3 caracteres."
+
+#. module: ecua_cities
+#: model:ir.actions.act_window,name:ecua_cities.view_res_zone_action
+#: model:ir.ui.menu,name:ecua_cities.zone_menu
+msgid "Zones"
+msgstr "Zonas"
+
+#. module: ecua_cities
+#: help:res.city,name:0
+msgid "Administrative divisions of a Cities."
+msgstr "Divisiones administrativas de una ciudad."
+
+#. module: ecua_cities
+#: model:ir.model,name:ecua_cities.model_res_partner
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: ecua_cities
+#: model:ir.actions.act_window,help:ecua_cities.view_res_city_action
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"            Click to define a new city.\n"
+"            </p><p/>\n"
+"            If you are working on the Ecuadorian market, you can manage the different Cities you are working on from here. Each city is attached to one state.\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"            Haga click aqu&iacute; para definir una nueva ciudad.\n"
+"            </p><p/>\n"
+"            Si usted est&aacute; trabajando en el mercado ecuatoriano, puede administrar las diferentes ciudades en las que est&aacute; trabajando. Cada ciudad se adjunta a una provincia.\n"
+"            "
+
+#. module: ecua_cities
+#: model:ir.model,name:ecua_cities.model_res_country_state
+msgid "Country state"
+msgstr "Provincia"

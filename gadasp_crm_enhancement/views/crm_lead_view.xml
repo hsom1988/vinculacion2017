@@ -1,6 +1,21 @@
 <?xml version="1.0"?>
 <openerp>
     <data>
+    
+    	<record model="ir.ui.view" id="crm.crm_case_tree_view_oppor">
+	    	<field name="name">Leads</field>
+            <field name="model">crm.lead</field>
+            <field name="arch" type="xml">
+                <tree string="Leads" colors="red:date_max_resp &lt; current_date;grey:state in ('cancel', 'done')">
+                    <field name="name" />
+                    <field name="date_action" />
+                    <field name="date_max_resp" />
+                    <field name="partner_id" invisible="0" />
+                    <field name="user_id" invisible="0" />
+                    <field name="state" invisible="0" />
+                </tree>
+            </field>
+	    </record>
     	 <!-- Opportunities Form View -->
         <record model="ir.ui.view" id="crm.crm_case_form_view_oppor">
             <field name="name">Opportunities</field>
@@ -9,16 +24,29 @@
             <field name="arch" type="xml">
                 <form string="Opportunities" version="7.0">
                     <header>
-                        <button name="case_mark_won" string="Areas internas" type="object"
-                                states="pending" class="oe_highlight"/>
 						<button name="case_secretary" string="Secretaria" type="object"
-                                states="draft" class="oe_highlight"/>
+                            states="draft" class="oe_highlight"/>
                         <button name="case_president" string="Presidente" type="object"
-                                states="open" class="oe_highlight"/>
-                        <field name="stage_id" widget="statusbar" clickable="True" 
-                        	domain="['&amp;', '|', ('case_default', '=', True), ('section_ids', '=', section_id), '|', ('type', '=', type), ('type', '=', 'both')]"
-                            on_change="onchange_stage_id(stage_id)"/>
-                        <field name="state" invisible="1" />
+                            states="open" class="oe_highlight" groups="base.group_sale_manager"/>
+						<button name="case_approved" string="Aprobado" type="object"
+                            states="president" class="oe_highlight" 
+                            groups="base.group_sale_manager"/>
+                        <button name="case_denied" string="Negado" type="object"
+                            states="president,received_post" class="oe_highlight" 
+                            groups="base.group_sale_manager"/>
+                        <button name="case_send" string="Enviado" type="object"
+                            states="draft_post" class="oe_highlight" groups="base.group_sale_manager"/>
+                        <button name="case_received" string="Recibido" type="object"
+                            states="send_post" class="oe_highlight" groups="base.group_sale_manager"/>
+                        <button name="action_send_response" string="Enviar por correo" 
+                        	type="object" states="president,received_post,cancel" 
+                        	class="oe_highlight" groups="base.group_user"
+                        	/>
+                        <button name="case_ended" string="Respuesta" type="object"
+                        	states="cancel,received_post" class="oe_highlight" 
+                            groups="base.group_sale_manager"/>
+                        <field name="state" widget="statusbar" clickable="True" 
+                        	statusbar_visible="draft,president,received_post,done" readonly="1" />
                     </header>
                     <sheet>
                         <div class="oe_right oe_button_box">
@@ -31,31 +59,44 @@
                         </div>
                         <div class="oe_title">
                             <label for="name" string="Nro. Tramite" class="oe_edit_only"/>
-                            <h1><field name="name"/></h1>
+                            <h1><field name="name" readonly="1"/></h1>
                         </div>
                         <group>
                             <group>
-                            	<field name="date_action" string="Fecha de recepcion"/>
+                            	<field name="date_open" string="Fecha de recepcion"/>
+                            	<field name="date_max_resp" string="Fecha máx. de respuesta"
+                            		attrs="{'invisible': [('state','=','draft')]}"/>
                             	<field name="title_action" string="Nro. Hojas"/>
 								<field name="partner_id"
                                     on_change="onchange_partner_id(partner_id)"
                                     string="Customer" />
-                            	<field name="organization_position" />
+                                <field name="oficio_number" 
+                                	attrs="{'invisible': [('state','!=','received_post')]}"/>
                             	<field name="user_id" readonly="1"/>
                             	<field name="section_id" invisible="1"/>
                             </group>
                             <group>
+                            	<field name="urgente" />
                             	<field name="relevant"/>
+                            	<field name="external"/>
+                            	<field name="area_id" />
                             </group>
                         </group>
-                        <group>
-                            <group>
-                            	<field name="description" string="Asunto"/>
-                            </group>
-                            <group>
-                            	<field name="additional_information" string="Observaciones"/>
-                            </group>
-						</group>
+                        <notebook colspan="4">
+	                        <page string="Asunto">
+		                        <group>
+		                            <group>
+		                            	<field name="description" string="Asunto"/>
+		                            </group>
+		                            <group>
+		                            	<field name="additional_information" string="Observaciones"/>
+		                            </group>
+								</group>
+							</page>
+							<page string="Llamadas Telefónicas">
+								<field name="phonecall_ids" context="{'tree_view_ref':'crm.crm_case_inbound_phone_tree_view'}"/>
+							</page>
+						</notebook>
                     </sheet>
                     <div class="oe_chatter">
                         <field name="message_follower_ids" widget="mail_followers"/>
@@ -64,5 +105,107 @@
                 </form>
             </field>
         </record>
+        <record id="mail.mail_feeds_main" model="ir.ui.menu" >
+        	<field name="groups_id" eval="[(6,0,(ref('base.group_sale_manager'),))]" />
+        </record>
+        <record id="base.menu_reporting" model="ir.ui.menu" >
+        	<field name="groups_id" eval="[(6,0,(ref('base.group_sale_manager'),))]" />
+        </record>
+        <record model="ir.actions.act_window" id="crm.crm_case_category_act_oppor11">
+	        <field name="name">Opportunities</field>
+	        <field name="res_model">crm.lead</field>
+	        <field name="view_mode">tree,form,kanban,calendar</field>
+	        <field name="domain">[('type','=','opportunity')]</field>
+	        <field name="context">{'stage_type': 'opportunity', 'default_type': 'opportunity', 'default_user_id': uid}</field>
+	        <field name="view_id" eval="False"/>
+	        <field name="search_view_id" ref="crm.view_crm_case_opportunities_filter"/>
+	        <field name="help" type="html">
+	          <p class="oe_view_nocontent_create">
+	          Click to create a new opportunity.
+	          </p><p>
+	          OpenERP helps you keep track of your sales pipeline to follow
+	          up potential sales and better forecast your future revenues.
+	          </p><p>
+	          You will be able to plan meetings and phone calls from
+	          opportunities, convert them into quotations, attach related
+	          documents, track all discussions, and much more.
+	          </p>
+	        </field>
+	    </record>
+	    <record model="ir.actions.act_window" id="crm_case_category_act_draft_post">
+	        <field name="name">Opportunities</field>
+	        <field name="res_model">crm.lead</field>
+	        <field name="view_mode">tree,form,kanban,calendar</field>
+	        <field name="domain">[('state','=','draft_post')]</field>
+	        <field name="context">{'stage_type': 'opportunity', 'default_type': 'opportunity', 'default_user_id': uid}</field>
+	        <field name="view_id" eval="False"/>
+	        <field name="search_view_id" ref="crm.view_crm_case_opportunities_filter"/>
+	        <field name="help" type="html">
+	          <p class="oe_view_nocontent_create">
+	          Click to create a new opportunity.
+	          </p><p>
+	          OpenERP helps you keep track of your sales pipeline to follow
+	          up potential sales and better forecast your future revenues.
+	          </p><p>
+	          You will be able to plan meetings and phone calls from
+	          opportunities, convert them into quotations, attach related
+	          documents, track all discussions, and much more.
+	          </p>
+	        </field>
+	    </record>
+	    <record model="ir.actions.act_window" id="crm_case_category_act_send_post">
+	        <field name="name">Opportunities</field>
+	        <field name="res_model">crm.lead</field>
+	        <field name="view_mode">tree,form,kanban,calendar</field>
+	        <field name="domain">[('state','=','send_post')]</field>
+	        <field name="context">{'stage_type': 'opportunity', 'default_type': 'opportunity', 'default_user_id': uid}</field>
+	        <field name="view_id" eval="False"/>
+	        <field name="search_view_id" ref="crm.view_crm_case_opportunities_filter"/>
+	        <field name="help" type="html">
+	          <p class="oe_view_nocontent_create">
+	          Click to create a new opportunity.
+	          </p><p>
+	          OpenERP helps you keep track of your sales pipeline to follow
+	          up potential sales and better forecast your future revenues.
+	          </p><p>
+	          You will be able to plan meetings and phone calls from
+	          opportunities, convert them into quotations, attach related
+	          documents, track all discussions, and much more.
+	          </p>
+	        </field>
+	    </record>
+	    <record model="ir.actions.act_window" id="crm_case_category_act_received_post">
+	        <field name="name">Opportunities</field>
+	        <field name="res_model">crm.lead</field>
+	        <field name="view_mode">tree,form,kanban,calendar</field>
+	        <field name="domain">[('state','=','received_post')]</field>
+	        <field name="context">{'stage_type': 'opportunity', 'default_type': 'opportunity', 'default_user_id': uid}</field>
+	        <field name="view_id" eval="False"/>
+	        <field name="search_view_id" ref="crm.view_crm_case_opportunities_filter"/>
+	        <field name="help" type="html">
+	          <p class="oe_view_nocontent_create">
+	          Click to create a new opportunity.
+	          </p><p>
+	          OpenERP helps you keep track of your sales pipeline to follow
+	          up potential sales and better forecast your future revenues.
+	          </p><p>
+	          You will be able to plan meetings and phone calls from
+	          opportunities, convert them into quotations, attach related
+	          documents, track all discussions, and much more.
+	          </p>
+	        </field>
+	    </record>
+        <record model="ir.actions.act_window.view" id="crm.action_crm_tag_kanban_view_oppor11">
+	        <field name="sequence" eval="3"/>
+	        <field name="view_mode">kanban</field>
+	        <field name="view_id" ref="crm.crm_case_kanban_view_leads"/>
+	        <field name="act_window_id" ref="crm.crm_case_category_act_oppor11"/>
+	    </record>
+	    <menuitem name="Borrador" id="menu_crm_draft_post" parent="base.menu_sales" 
+	    	action="crm_case_category_act_draft_post" sequence="10" />
+	    <menuitem name="Enviado" id="menu_crm_send_post" parent="base.menu_sales" 
+	    	action="crm_case_category_act_send_post" sequence="20" />
+	    <menuitem name="Recibido" id="menu_crm_received_post" parent="base.menu_sales" 
+	    	action="crm_case_category_act_received_post" sequence="30" />
 	</data>
 </openerp>

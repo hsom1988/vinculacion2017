@@ -1,0 +1,223 @@
+id,code,name,state_id/id
+__export__.res_city_1,01,Cuenca,ecua_cities.state_ec_01
+__export__.res_city_2,02,Girón,ecua_cities.state_ec_01
+__export__.res_city_3,03,Gualaceo,ecua_cities.state_ec_01
+__export__.res_city_4,04,Nabon,ecua_cities.state_ec_01
+__export__.res_city_5,05,Paute,ecua_cities.state_ec_01
+__export__.res_city_6,06,Pucara,ecua_cities.state_ec_01
+__export__.res_city_7,07,San Fernando,ecua_cities.state_ec_01
+__export__.res_city_8,08,Santa Isabel,ecua_cities.state_ec_01
+__export__.res_city_9,09,Sigsig,ecua_cities.state_ec_01
+__export__.res_city_10,10,Ona,ecua_cities.state_ec_01
+__export__.res_city_11,11,Chordeleg,ecua_cities.state_ec_01
+__export__.res_city_12,12,El Pan,ecua_cities.state_ec_01
+__export__.res_city_13,13,Sevilla De Oro,ecua_cities.state_ec_01
+__export__.res_city_14,14,Guachapala,ecua_cities.state_ec_01
+__export__.res_city_15,15,Camilo Ponce  Enriquez,ecua_cities.state_ec_01
+__export__.res_city_16,01,Guaranda,ecua_cities.state_ec_02
+__export__.res_city_17,02,Chillanes,ecua_cities.state_ec_02
+__export__.res_city_18,03,Chimbo,ecua_cities.state_ec_02
+__export__.res_city_19,04,Echeandía,ecua_cities.state_ec_02
+__export__.res_city_20,05,San Miguel,ecua_cities.state_ec_02
+__export__.res_city_21,06,Caluma,ecua_cities.state_ec_02
+__export__.res_city_22,07,Las Naves,ecua_cities.state_ec_02
+__export__.res_city_23,01,Azogues,ecua_cities.state_ec_03
+__export__.res_city_24,02,Biblián,ecua_cities.state_ec_03
+__export__.res_city_25,03,Cañar,ecua_cities.state_ec_03
+__export__.res_city_26,04,La Troncal,ecua_cities.state_ec_03
+__export__.res_city_27,05,El Tambo,ecua_cities.state_ec_03
+__export__.res_city_28,06,Déeleg,ecua_cities.state_ec_03
+__export__.res_city_29,07,Suscal,ecua_cities.state_ec_03
+__export__.res_city_30,01,Tulcán,ecua_cities.state_ec_04
+__export__.res_city_31,02,Bolívar,ecua_cities.state_ec_04
+__export__.res_city_32,03,Espejo,ecua_cities.state_ec_04
+__export__.res_city_33,04,Mira,ecua_cities.state_ec_04
+__export__.res_city_34,05,Montúfar,ecua_cities.state_ec_04
+__export__.res_city_35,06,San Pedro de Huaca,ecua_cities.state_ec_04
+__export__.res_city_36,01,Latacunga,ecua_cities.state_ec_05
+__export__.res_city_37,02,La Maná,ecua_cities.state_ec_05
+__export__.res_city_38,03,Pangua,ecua_cities.state_ec_05
+__export__.res_city_39,04,Pujilí,ecua_cities.state_ec_05
+__export__.res_city_40,05,Salcedo,ecua_cities.state_ec_05
+__export__.res_city_41,06,Saquisilí,ecua_cities.state_ec_05
+__export__.res_city_42,07,Sigchos,ecua_cities.state_ec_05
+__export__.res_city_43,01,Riobamba,ecua_cities.state_ec_06
+__export__.res_city_44,02,Alausí,ecua_cities.state_ec_06
+__export__.res_city_45,03,Colta,ecua_cities.state_ec_06
+__export__.res_city_46,04,Chambo,ecua_cities.state_ec_06
+__export__.res_city_47,05,Chunchi,ecua_cities.state_ec_06
+__export__.res_city_48,06,Guamote,ecua_cities.state_ec_06
+__export__.res_city_49,07,Guano,ecua_cities.state_ec_06
+__export__.res_city_50,08,Pallatanga,ecua_cities.state_ec_06
+__export__.res_city_51,09,Penipe,ecua_cities.state_ec_06
+__export__.res_city_52,10,Cumandá,ecua_cities.state_ec_06
+__export__.res_city_53,01,Machala,ecua_cities.state_ec_07
+__export__.res_city_54,02,Arenillas,ecua_cities.state_ec_07
+__export__.res_city_55,03,Atahualpa,ecua_cities.state_ec_07
+__export__.res_city_56,04,Balsas,ecua_cities.state_ec_07
+__export__.res_city_57,05,Chilla,ecua_cities.state_ec_07
+__export__.res_city_58,06,El Guabo,ecua_cities.state_ec_07
+__export__.res_city_59,07,Huaquillas,ecua_cities.state_ec_07
+__export__.res_city_60,08,Marcabelí,ecua_cities.state_ec_07
+__export__.res_city_61,09,Pasaje,ecua_cities.state_ec_07
+__export__.res_city_62,10,Piñas,ecua_cities.state_ec_07
+__export__.res_city_63,11,Portovelo,ecua_cities.state_ec_07
+__export__.res_city_64,12,Santa Rosa,ecua_cities.state_ec_07
+__export__.res_city_65,13,Zaruma,ecua_cities.state_ec_07
+__export__.res_city_66,14,Las Lajas,ecua_cities.state_ec_07
+__export__.res_city_67,01,Esmeraldas,ecua_cities.state_ec_08
+__export__.res_city_68,02,Eloy Alfaro,ecua_cities.state_ec_08
+__export__.res_city_69,03,Muisne,ecua_cities.state_ec_08
+__export__.res_city_70,04,Quinindé,ecua_cities.state_ec_08
+__export__.res_city_71,05,San Lorenzo,ecua_cities.state_ec_08
+__export__.res_city_72,06,Atacames,ecua_cities.state_ec_08
+__export__.res_city_73,07,Rioverde,ecua_cities.state_ec_08
+__export__.res_city_74,08,La Concordia,ecua_cities.state_ec_08
+__export__.res_city_75,01,Guayaquil,ecua_cities.state_ec_09
+__export__.res_city_76,02,Alfredo Baquerizo Moreno,ecua_cities.state_ec_09
+__export__.res_city_77,03,(JUJÁN),ecua_cities.state_ec_09
+__export__.res_city_78,04,Balao,ecua_cities.state_ec_09
+__export__.res_city_79,05,Balzar,ecua_cities.state_ec_09
+__export__.res_city_80,06,Colimes,ecua_cities.state_ec_09
+__export__.res_city_81,07,Daule,ecua_cities.state_ec_09
+__export__.res_city_82,08,Durán,ecua_cities.state_ec_09
+__export__.res_city_83,09,El Empalme,ecua_cities.state_ec_09
+__export__.res_city_84,10,El Triunfo,ecua_cities.state_ec_09
+__export__.res_city_85,11,Milagro,ecua_cities.state_ec_09
+__export__.res_city_86,12,Naranjal,ecua_cities.state_ec_09
+__export__.res_city_87,13,Naranjito,ecua_cities.state_ec_09
+__export__.res_city_88,14,Palestina,ecua_cities.state_ec_09
+__export__.res_city_89,16,Pedro Carbo,ecua_cities.state_ec_09
+__export__.res_city_90,18,Samborondón,ecua_cities.state_ec_09
+__export__.res_city_91,19,Santa Lucía,ecua_cities.state_ec_09
+__export__.res_city_92,20,Salitre (URBINA Jado),ecua_cities.state_ec_09
+__export__.res_city_93,21,San Jacinto de Yaguachi,ecua_cities.state_ec_09
+__export__.res_city_94,22,Playas,ecua_cities.state_ec_09
+__export__.res_city_95,23,Simón Bolívar,ecua_cities.state_ec_09
+__export__.res_city_96,24,Coronel Marcelino Maridueña,ecua_cities.state_ec_09
+__export__.res_city_97,25,Lomas de Sargentillo,ecua_cities.state_ec_09
+__export__.res_city_98,27,Nobol,ecua_cities.state_ec_09
+__export__.res_city_99,28,General Antonio Elizalde (BUCAY),ecua_cities.state_ec_09
+__export__.res_city_100,29,Isidro Ayora,ecua_cities.state_ec_09
+__export__.res_city_101,01,Ibarra,ecua_cities.state_ec_10
+__export__.res_city_102,02,Antonio Ante,ecua_cities.state_ec_10
+__export__.res_city_103,03,Cotacachi,ecua_cities.state_ec_10
+__export__.res_city_104,04,Otavalo,ecua_cities.state_ec_10
+__export__.res_city_105,05,Pimampiro,ecua_cities.state_ec_10
+__export__.res_city_106,06,San Miguel de Urcuquí,ecua_cities.state_ec_10
+__export__.res_city_107,01,Loja ,ecua_cities.state_ec_11
+__export__.res_city_108,02,Calvas,ecua_cities.state_ec_11
+__export__.res_city_109,03,Catamayo,ecua_cities.state_ec_11
+__export__.res_city_110,04,Celica,ecua_cities.state_ec_11
+__export__.res_city_111,05,Chaguarpamba,ecua_cities.state_ec_11
+__export__.res_city_112,06,Espíndola,ecua_cities.state_ec_11
+__export__.res_city_113,07,Gonzanamá,ecua_cities.state_ec_11
+__export__.res_city_114,08,Macará,ecua_cities.state_ec_11
+__export__.res_city_115,09,Paltas,ecua_cities.state_ec_11
+__export__.res_city_116,10,Puyango,ecua_cities.state_ec_11
+__export__.res_city_117,11,Saraguro,ecua_cities.state_ec_11
+__export__.res_city_118,12,Sozoranga,ecua_cities.state_ec_11
+__export__.res_city_119,13,Zapotillo,ecua_cities.state_ec_11
+__export__.res_city_120,14,Pindal,ecua_cities.state_ec_11
+__export__.res_city_121,15,Quilanga,ecua_cities.state_ec_11
+__export__.res_city_122,16,Olmedo,ecua_cities.state_ec_11
+__export__.res_city_123,01,Babahoyo,ecua_cities.state_ec_12
+__export__.res_city_124,02,Baba,ecua_cities.state_ec_12
+__export__.res_city_125,03,Montalvo,ecua_cities.state_ec_12
+__export__.res_city_126,04,Puebloviejo,ecua_cities.state_ec_12
+__export__.res_city_127,05,Quevedo,ecua_cities.state_ec_12
+__export__.res_city_128,06,Urdaneta,ecua_cities.state_ec_12
+__export__.res_city_129,07,Ventanas,ecua_cities.state_ec_12
+__export__.res_city_130,08,Vinces,ecua_cities.state_ec_12
+__export__.res_city_131,09,Palenque,ecua_cities.state_ec_12
+__export__.res_city_132,10,Buena Fé,ecua_cities.state_ec_12
+__export__.res_city_133,11,Valencia,ecua_cities.state_ec_12
+__export__.res_city_134,12,Mocache,ecua_cities.state_ec_12
+__export__.res_city_135,13,Quinsaloma,ecua_cities.state_ec_12
+__export__.res_city_136,01,Portoviejo,ecua_cities.state_ec_13
+__export__.res_city_137,02,Bolívar,ecua_cities.state_ec_13
+__export__.res_city_138,03,Chone,ecua_cities.state_ec_13
+__export__.res_city_139,04,El Carmen,ecua_cities.state_ec_13
+__export__.res_city_140,05,Flavio Alfaro,ecua_cities.state_ec_13
+__export__.res_city_141,06,Jipijapa,ecua_cities.state_ec_13
+__export__.res_city_142,07,Junín ,ecua_cities.state_ec_13
+__export__.res_city_143,08,Manta,ecua_cities.state_ec_13
+__export__.res_city_144,09,Montecristi,ecua_cities.state_ec_13
+__export__.res_city_145,10,Paján,ecua_cities.state_ec_13
+__export__.res_city_146,11,Pichincha,ecua_cities.state_ec_13
+__export__.res_city_147,12,Rocafuerte,ecua_cities.state_ec_13
+__export__.res_city_148,13,Santa Ana,ecua_cities.state_ec_13
+__export__.res_city_149,14,Sucre,ecua_cities.state_ec_13
+__export__.res_city_150,15,Tosagua,ecua_cities.state_ec_13
+__export__.res_city_151,16,24 De Mayo,ecua_cities.state_ec_13
+__export__.res_city_152,17,Pedernales,ecua_cities.state_ec_13
+__export__.res_city_153,18,Olmedo,ecua_cities.state_ec_13
+__export__.res_city_154,19,Puerto López,ecua_cities.state_ec_13
+__export__.res_city_155,20,Jama,ecua_cities.state_ec_13
+__export__.res_city_156,21,Jaramijó,ecua_cities.state_ec_13
+__export__.res_city_157,22,San Vicente,ecua_cities.state_ec_13
+__export__.res_city_158,01,Morona,ecua_cities.state_ec_14
+__export__.res_city_159,02,Gualaquiza,ecua_cities.state_ec_14
+__export__.res_city_160,03,Limón Indanza,ecua_cities.state_ec_14
+__export__.res_city_161,04,Palora,ecua_cities.state_ec_14
+__export__.res_city_162,05,Santiago,ecua_cities.state_ec_14
+__export__.res_city_163,06,Sucúa,ecua_cities.state_ec_14
+__export__.res_city_164,07,Huamboya,ecua_cities.state_ec_14
+__export__.res_city_165,08,San Juan Bosco,ecua_cities.state_ec_14
+__export__.res_city_166,09,Taisha,ecua_cities.state_ec_14
+__export__.res_city_167,10,Logroño,ecua_cities.state_ec_14
+__export__.res_city_168,11,Pablo Sexto,ecua_cities.state_ec_14
+__export__.res_city_169,12,Tiwintza,ecua_cities.state_ec_14
+__export__.res_city_170,01,Tena,ecua_cities.state_ec_15
+__export__.res_city_171,03,Archidona,ecua_cities.state_ec_15
+__export__.res_city_172,04,El Chaco,ecua_cities.state_ec_15
+__export__.res_city_173,07,Quijos,ecua_cities.state_ec_15
+__export__.res_city_174,09,Carlos Julio Arosemena Tola,ecua_cities.state_ec_15
+__export__.res_city_175,01,Pastaza,ecua_cities.state_ec_16
+__export__.res_city_176,02,Mera,ecua_cities.state_ec_16
+__export__.res_city_177,03,Santa Clara,ecua_cities.state_ec_16
+__export__.res_city_178,04,Arajuno,ecua_cities.state_ec_16
+__export__.res_city_179,01,Quito,ecua_cities.state_ec_17
+__export__.res_city_180,02,Cayambe,ecua_cities.state_ec_17
+__export__.res_city_181,03,Mejía,ecua_cities.state_ec_17
+__export__.res_city_182,04,Pedro Moncayo,ecua_cities.state_ec_17
+__export__.res_city_183,05,Rumiñahui,ecua_cities.state_ec_17
+__export__.res_city_184,07,San Miguel de Los Bancos,ecua_cities.state_ec_17
+__export__.res_city_185,08,Pedro Vicente Maldonado,ecua_cities.state_ec_17
+__export__.res_city_186,09,Puerto Quito,ecua_cities.state_ec_17
+__export__.res_city_187,01,Ambato,ecua_cities.state_ec_18
+__export__.res_city_188,02,Baños de Agua Santa,ecua_cities.state_ec_18
+__export__.res_city_189,03,Cevallos,ecua_cities.state_ec_18
+__export__.res_city_190,04,Mocha,ecua_cities.state_ec_18
+__export__.res_city_191,05,Patate,ecua_cities.state_ec_18
+__export__.res_city_192,06,Quero,ecua_cities.state_ec_18
+__export__.res_city_193,07,San Pedro De Pelileo,ecua_cities.state_ec_18
+__export__.res_city_194,08,Santiago De Píllaro,ecua_cities.state_ec_18
+__export__.res_city_195,09,Tisaleo,ecua_cities.state_ec_18
+__export__.res_city_196,01,Zamora,ecua_cities.state_ec_19
+__export__.res_city_197,02,Chinchipe,ecua_cities.state_ec_19
+__export__.res_city_198,03,Nangaritza,ecua_cities.state_ec_19
+__export__.res_city_199,04,Yacuambí,ecua_cities.state_ec_19
+__export__.res_city_200,05,Yantzaza,ecua_cities.state_ec_19
+__export__.res_city_201,06,El Pangui,ecua_cities.state_ec_19
+__export__.res_city_202,07,Centinela Del Cóndor,ecua_cities.state_ec_19
+__export__.res_city_203,08,Palanda,ecua_cities.state_ec_19
+__export__.res_city_204,09,Paquisha,ecua_cities.state_ec_19
+__export__.res_city_205,01,San Cristóbal,ecua_cities.state_ec_20
+__export__.res_city_206,02,Isabela,ecua_cities.state_ec_20
+__export__.res_city_207,03,Santa Cruz,ecua_cities.state_ec_20
+__export__.res_city_208,01,Lago Agrio,ecua_cities.state_ec_21
+__export__.res_city_209,02,Gonzalo Pizarro,ecua_cities.state_ec_21
+__export__.res_city_210,03,Putumayo,ecua_cities.state_ec_21
+__export__.res_city_211,04,Shushufindi,ecua_cities.state_ec_21
+__export__.res_city_212,05,Sucumbíos,ecua_cities.state_ec_21
+__export__.res_city_213,06,Cascales,ecua_cities.state_ec_21
+__export__.res_city_214,07,Cuyabeno,ecua_cities.state_ec_21
+__export__.res_city_215,01,Orellana,ecua_cities.state_ec_22
+__export__.res_city_216,02,Aguarico,ecua_cities.state_ec_22
+__export__.res_city_217,03,La Joya de Los Sachas,ecua_cities.state_ec_22
+__export__.res_city_218,04,Loreto,ecua_cities.state_ec_22
+__export__.res_city_219,01,Santo Domingo,ecua_cities.state_ec_23
+__export__.res_city_220,01,Santa Elena,ecua_cities.state_ec_24
+__export__.res_city_221,02,La Libertad,ecua_cities.state_ec_24
+__export__.res_city_222,03,Salinas,ecua_cities.state_ec_24

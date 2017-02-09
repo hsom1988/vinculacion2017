@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+		<record id="view_partner_personal_credit_form_inherit" model="ir.ui.view">
+            <field name="name">res.partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+                     <field name="state_id" position="replace">
+                     </field>
+                     <field name="city" position='replace'>
+                     </field>
+                     <field name="zip" position='replace'>
+                     </field>
+                     <field name="country_id" position='attributes'>
+    					<attribute name="on_change">onchange_country(country_id)</attribute>
+                     </field>                                             
+                     
+                     <field name="country_id" position='after' >
+                           <div class="address_format">  
+                           	   <field name="state_id"  on_change="onchange_state(state_id)"  class="oe_no_button" 
+                           	   domain="[('country_id','=',country_id)]" placeholder="State" style="width: 48%%" 
+                           	   options='{"no_open": True}' attrs="{'readonly': [('use_parent_address','=',True)],
+                           	   'required': [('country_id','=',64)]}" />
+	          				   <field name="city" invisible="1" placeholder="City" style="width: 45%%"/>
+	          				   <field name="city_id" on_change="onchange_city(city_id)" domain="[('state_id','=',state_id)])"  placeholder="City" style="width: 50%%" attrs="{'readonly': [('use_parent_address','=',True)]}"/> 
+	          				   <field name="zone_id" on_change="onchange_zone(zone_id)" domain="[('city_id','=',city_id)]" placeholder="Zone" style="width: 45%%" attrs="{'readonly': [('use_parent_address','=',True)]}"/> 
+	          				   <field name="parish_id" on_change="onchange_parish(parish_id)" domain="[('zone_id','=',zone_id)]" placeholder="Parish" style="width: 50%%" attrs="{'readonly': [('use_parent_address','=',True)]}"/> 
+	                           <field name="zip" placeholder="Zip" style="width: 30%%" attrs="{'readonly': [('use_parent_address','=',True)]}"/> 
+	                           
+                           </div>
+                     </field>  
+                     
+            </field>
+        </record>
+        
+        
+        </data>
+        </openerp>
