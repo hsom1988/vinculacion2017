@@ -22,11 +22,12 @@
                     # Vistas
                     'views/crm_lead_view.xml',
                     'views/res_partner_view.xml',
+                    'views/res_company_view.xml',
                     # Data
                     'data/crm_email_data.xml',
                     'data/crm_sequence.xml',
                     # Reportes
-                    'reports/report_closing_cash.xml',
+                    'reports/report_ticket_data.xml',
     ],
     'auto_install': False,
     'installable' : True

@@ -1,2 +1,3 @@
 import crm_lead
 import res_partner
+import res_company

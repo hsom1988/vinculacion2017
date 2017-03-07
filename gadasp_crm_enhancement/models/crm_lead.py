@@ -49,7 +49,10 @@ class crm_lead(osv.osv):
     
     def create(self, cr, uid, vals, context=None):
         vals = vals or {}
-        vals['name'] = self.pool.get('ir.sequence').get(cr, uid, 'crm.lead') or '/'
+        view_id = self.pool.get('ir.model.data').get_object_reference(cr, 
+                                                                      uid, 'gadasp_crm_enhancement', 
+                                                                      'seq_ticket_crm_lead')[1]
+        vals['name'] = self.pool.get('ir.sequence').next_by_id(cr, uid, view_id) or '/'
         return super(crm_lead,self).create(cr, uid, vals, context)
     
     def case_secretary(self, cr, uid, ids, context=None):
@@ -73,13 +76,19 @@ class crm_lead(osv.osv):
     def case_approved(self, cr, uid, ids, context=None):
         """ Mark the case as won: state=done and probability=100 """
         for lead in self.browse(cr, uid, ids):
-            lead.write({'state': 'draft_post'})
+            view_id = self.pool.get('ir.model.data').get_object_reference(cr, 
+                                                                      uid, 'gadasp_crm_enhancement', 
+                                                                      'seq_post_crm_lead')[1]
+            post_name = self.pool.get('ir.sequence').next_by_id(cr, uid, view_id) or '/'
+            lead.write({'state': 'draft_post',
+                        'oficio_number': post_name + ' BORRADOR'})
         return True
     
     def case_send(self, cr, uid, ids, context=None):
         """ Mark the case as won: state=done and probability=100 """
         for lead in self.browse(cr, uid, ids):
-            lead.write({'state': 'send_post'})
+            lead.write({'state': 'send_post',
+                        'oficio_number': lead.oficio_number[:9]})
         return True
     
     def case_received(self, cr, uid, ids, context=None):
@@ -124,33 +133,52 @@ class crm_lead(osv.osv):
             'target': 'new',
             'context': ctx,
         }
+        
+    def _get_days_due(self, cr, uid, context=None):
+        '''
+        Este método se encarga de obtener los días de validez de la proforma definidos en la compañía
+        :param cr: Cursor estándar de base de datos PostgreSQL
+        :param uid: ID del usuario actual
+        :param context: Diccionario de datos de contexto adicional
+        '''
+        if context is None:
+            context = {}
+        res_user_obj = self.pool.get('res.users')
+        days_of_valid_proforma = 8
+        for user in res_user_obj.browse(cr, uid, [uid], context=context):
+            days_of_valid_proforma = user.company_id.days_due
+        return days_of_valid_proforma
 
     _columns = {
         'name': fields.char("No. Tramite"),
-        'description': fields.text('Notes'),
-        'oficio_number': fields.char('Oficio Nro.'),
-        'additional_information': fields.text('Observaciones'),
-        'date_open': fields.datetime('Fecha de recepcion',),
-        'date_max_resp': fields.datetime('Fecha max. de respuesta',),
-        'relevant': fields.boolean('Es Relevante?'),
-        'phonecall_ids': fields.one2many('crm.phonecall', 'opportunity_id', u'LLamadas Telefónicas'),
-        'external': fields.boolean('Es Externo?'),
-        'area_id': fields.many2one('res.area', u'Área'),
-        'urgente': fields.boolean('Urgente'),
+        'description': fields.text('Notes', states={'done': [('readonly', True)]}),
+        'oficio_number': fields.char('Oficio Nro.', states={'done': [('readonly', True)]}),
+        'oficio_respuesta': fields.char('Nro. Oficio Resp.', states={'done': [('readonly', True)]}),
+        'additional_information': fields.text('Observaciones', states={'done': [('readonly', True)]}),
+        'date_open': fields.datetime('Fecha de recepcion',states={'done': [('readonly', True)]}),
+        'date_max_resp': fields.datetime('Fecha max. de respuesta',states={'done': [('readonly', True)]}),
+        'relevant': fields.boolean('Es Relevante?',states={'done': [('readonly', True)]}),
+        'phonecall_ids': fields.one2many('crm.phonecall', 'opportunity_id', u'LLamadas Telefónicas',
+                                         states={'done': [('readonly', True)]}),
+        'external': fields.boolean('Es Externo?', states={'done': [('readonly', True)]}),
+        'area_id': fields.many2one('res.area', u'Área', states={'done': [('readonly', True)]}),
+        'urgente': fields.boolean('Urgente', states={'done': [('readonly', True)]}),
         'state': fields.selection(AVAILABLE_STATES, "Status", readonly=True, select=True,
                 help='The Status is set to \'Draft\', when a case is created.'
                 ' If the case is in progress the Status is set to \'Open\'. '
                 'When the case is over, the Status is set to \'Done\'. If the'
                 ' case needs to be reviewed then the Status is  set to \'Pending\'.'),
-        'asunto': fields.char('Asunto'),
-        'header': fields.text('Cabecera'),
-        'body': fields.text('Cuerpo'),
-        'footer': fields.text(u'Pie de Página'),
+        'asunto': fields.char('Asunto',states={'done': [('readonly', True)]}),
+        'header': fields.text('Cabecera', states={'done': [('readonly', True)]}),
+        'body': fields.text('Cuerpo', states={'done': [('readonly', True)]}),
+        'footer': fields.text(u'Pie de Página', states={'done': [('readonly', True)]}),
     }
     
     _defaults = {
         'date_open': lambda *a:datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-        'date_max_resp': lambda *a: (datetime.now()+relativedelta(days=8)).strftime('%Y-%m-%d %H:%M:%S'),
+        'date_max_resp': lambda self, cr, uid, context={}: (datetime.now()+\
+                         relativedelta(days=self._get_days_due(cr, uid, context))).\
+                         strftime('%Y-%m-%d %H:%M:%S'),
         'state': 'draft',
         }
 

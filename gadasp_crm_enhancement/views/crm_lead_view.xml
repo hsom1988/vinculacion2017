@@ -16,7 +16,8 @@
                 </tree>
             </field>
 	    </record>
-    	 <!-- Opportunities Form View -->
+    	
+    	<!-- Opportunities Form View -->
         <record model="ir.ui.view" id="crm.crm_case_form_view_oppor">
             <field name="name">Opportunities</field>
             <field name="model">crm.lead</field>
@@ -71,7 +72,11 @@
                                     on_change="onchange_partner_id(partner_id)"
                                     string="Customer" />
                                 <field name="oficio_number" 
-                                	attrs="{'invisible': [('state','!=','received_post')]}"/>
+                                	attrs="{'invisible': [('state','in',('draft',
+                                	'open','president'))]}"/>
+                                <field name="oficio_respuesta" 
+                                	attrs="{'invisible': [('state','in',('draft',
+                                	'open','president'))]}"/>
                             	<field name="user_id" readonly="1"/>
                             	<field name="section_id" invisible="1"/>
                             </group>
@@ -105,14 +110,119 @@
                 </form>
             </field>
         </record>
+        
+        <!-- Opportunities Form View -->
+        <record model="ir.ui.view" id="crm_case_form_view_email">
+            <field name="name">Opportunities</field>
+            <field name="model">crm.lead</field>
+            <field name="priority">30</field>
+            <field name="arch" type="xml">
+                <form string="Opportunities" version="7.0">
+                    <header>
+                        <button name="case_denied" string="Negado" type="object"
+                            states="president,received_post" class="oe_highlight" 
+                            groups="base.group_sale_manager"/>
+                        <button name="case_send" string="Enviado" type="object"
+                            states="draft_post" class="oe_highlight" groups="base.group_sale_manager"/>
+                        <button name="case_received" string="Recibido" type="object"
+                            states="send_post" class="oe_highlight" groups="base.group_sale_manager"/>
+                        <button name="action_send_response" string="Enviar por correo" 
+                        	type="object" states="president,received_post,cancel" 
+                        	class="oe_highlight" groups="base.group_user"
+                        	/>
+                        <button name="case_ended" string="Respuesta" type="object"
+                        	states="cancel,received_post" class="oe_highlight" 
+                            groups="base.group_sale_manager"/>
+                        <button name="action_send_response" string="Enviar por correo" 
+                        	type="object" states="president,send_post,received_post,cancel" 
+                        	class="oe_highlight" groups="base.group_user"
+                        	/>
+                        <field name="state" widget="statusbar" clickable="True" 
+                        	statusbar_visible="draft,president,received_post,done" readonly="1" />
+                    </header>
+                    <sheet>
+                    	<div class="oe_right oe_button_box">
+                            <button string="Schedule/Log Call"
+                                name="%(crm.opportunity2phonecall_act)d"
+                                type="action"/>
+                            <button string="Meeting"
+                                name="action_makeMeeting"
+                                type="object" />
+                        </div>
+                        <div class="oe_title">
+                            <label for="name" string="Nro. Tramite" class="oe_edit_only"/>
+                            <h1><field name="name" readonly="1"/></h1>
+                        	<label for="oficio_number" />
+	                        <field name="oficio_number" 
+	                            attrs="{'invisible': [('state','in',('draft',
+	                            'open','president'))]}" readonly="1"/>
+                            <label for="oficio_respuesta" />
+							<field name="oficio_respuesta" 
+	                       		attrs="{'invisible': [('state','in',('draft',
+	                       		'open','president'))]}"/>
+                       		</div>
+                        <group>
+                            <group>
+                            	<field name="header"/>
+                            	<field name="asunto"/>
+                            	<field name="body"/>
+                            	<field name="footer" />
+                            </group>
+                        </group>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            </field>
+        </record>
+        
+        <record id="crm.view_crm_case_opportunities_filter" model="ir.ui.view">
+            <field name="name">CRM - Opportunities Search</field>
+            <field name="model">crm.lead</field>
+            <field name="arch" type="xml">
+                <search string="Search Opportunities">
+                    <field name="name" string="Trámites" filter_domain="['|','|','|',('partner_id','ilike',self),('partner_name','ilike',self),
+                    	('description','ilike',self),('additional_information', 'ilike', self),('title_action','ilike',self)]"/>
+                    <field name="user_id" string="Usuarios"/>
+                    <field name="partner_id" operator="child_of" string="Usuarios"/>
+                    <separator/>
+                    <filter string="Trámites Recibidos" name="new" domain="[('state','=','draft')]" />
+                    <filter string="Presidencia" name="open" domain="[('state','=','president')]" />
+                    <filter string="Respondidas" name="won" domain="[('state','=','done')]"/>
+                    <filter string="Negadas" name="lost" domain="[('state','=','cancel')]"/>
+                    <filter string="Assigned to Me"
+                            domain="[('user_id','=',uid)]" context="{'invisible_section': False}"
+                            help="Opportunities that are assigned to me"/>
+                    <separator/>
+                    <group expand="0" string="Group By..." colspan="16">
+                        <filter string="Quién Recibió" domain="[]" context="{'group_by':'user_id'}"/>
+                        <filter string="State" domain="[]" context="{'group_by':'state'}"/>
+                        <filter string="Usuario" help="Partner" domain="[]" context="{'group_by':'partner_id'}"/>
+                        <filter string="Urgentes" domain="[]" context="{'group_by':'urgente'}"/>
+                        <filter string="Relevantes" domain="[]" context="{'group_by':'relevant'}"/>
+                        <filter string="Externo" domain="[]" context="{'group_by':'external'}"/>
+                        <filter string="Meses" domain="[]" context="{'group_by':'date_open'}"/>
+                    </group>
+                    <group string="Display">
+                        <filter string="Show Sales Team" context="{'invisible_section': False}" domain="[]" help="Show Sales Team"/>
+                        <filter string="Show Countries" context="{'invisible_country': False}" help="Show Countries"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+        
         <record id="mail.mail_feeds_main" model="ir.ui.menu" >
         	<field name="groups_id" eval="[(6,0,(ref('base.group_sale_manager'),))]" />
         </record>
+        
         <record id="base.menu_reporting" model="ir.ui.menu" >
         	<field name="groups_id" eval="[(6,0,(ref('base.group_sale_manager'),))]" />
         </record>
+        
         <record model="ir.actions.act_window" id="crm.crm_case_category_act_oppor11">
-	        <field name="name">Opportunities</field>
+	        <field name="name">Trámites</field>
 	        <field name="res_model">crm.lead</field>
 	        <field name="view_mode">tree,form,kanban,calendar</field>
 	        <field name="domain">[('type','=','opportunity')]</field>
@@ -132,8 +242,9 @@
 	          </p>
 	        </field>
 	    </record>
+	    
 	    <record model="ir.actions.act_window" id="crm_case_category_act_draft_post">
-	        <field name="name">Opportunities</field>
+	        <field name="name">Borrador</field>
 	        <field name="res_model">crm.lead</field>
 	        <field name="view_mode">tree,form,kanban,calendar</field>
 	        <field name="domain">[('state','=','draft_post')]</field>
@@ -153,8 +264,9 @@
 	          </p>
 	        </field>
 	    </record>
+	   
 	    <record model="ir.actions.act_window" id="crm_case_category_act_send_post">
-	        <field name="name">Opportunities</field>
+	        <field name="name">Enviados</field>
 	        <field name="res_model">crm.lead</field>
 	        <field name="view_mode">tree,form,kanban,calendar</field>
 	        <field name="domain">[('state','=','send_post')]</field>
@@ -174,8 +286,9 @@
 	          </p>
 	        </field>
 	    </record>
+	   
 	    <record model="ir.actions.act_window" id="crm_case_category_act_received_post">
-	        <field name="name">Opportunities</field>
+	        <field name="name">Recibidos</field>
 	        <field name="res_model">crm.lead</field>
 	        <field name="view_mode">tree,form,kanban,calendar</field>
 	        <field name="domain">[('state','=','received_post')]</field>
@@ -195,16 +308,62 @@
 	          </p>
 	        </field>
 	    </record>
+	    
         <record model="ir.actions.act_window.view" id="crm.action_crm_tag_kanban_view_oppor11">
 	        <field name="sequence" eval="3"/>
 	        <field name="view_mode">kanban</field>
 	        <field name="view_id" ref="crm.crm_case_kanban_view_leads"/>
 	        <field name="act_window_id" ref="crm.crm_case_category_act_oppor11"/>
 	    </record>
+	    
+	    <record model="ir.actions.act_window.view" id="action_crm_tree_view_received_post">
+	        <field name="sequence" eval="1"/>
+	        <field name="view_mode">tree</field>
+	        <field name="view_id" ref="crm.crm_case_tree_view_oppor"/>
+	        <field name="act_window_id" ref="crm_case_category_act_received_post"/>
+	    </record>
+	    
+	    <record model="ir.actions.act_window.view" id="action_crm_form_view_received_post">
+	        <field name="sequence" eval="2"/>
+	        <field name="view_mode">form</field>
+	        <field name="view_id" ref="crm_case_form_view_email"/>
+	        <field name="act_window_id" ref="crm_case_category_act_received_post"/>
+	    </record>
+	    
+	    <record model="ir.actions.act_window.view" id="action_crm_tree_view_draft_post">
+	        <field name="sequence" eval="1"/>
+	        <field name="view_mode">tree</field>
+	        <field name="view_id" ref="crm.crm_case_tree_view_oppor"/>
+	        <field name="act_window_id" ref="crm_case_category_act_draft_post"/>
+	    </record>
+	    
+	    <record model="ir.actions.act_window.view" id="action_crm_form_view_draft_post">
+	        <field name="sequence" eval="2"/>
+	        <field name="view_mode">form</field>
+	        <field name="view_id" ref="crm_case_form_view_email"/>
+	        <field name="act_window_id" ref="crm_case_category_act_draft_post"/>
+	    </record>
+	    
+	    <record model="ir.actions.act_window.view" id="action_crm_tree_view_send_post">
+	        <field name="sequence" eval="1"/>
+	        <field name="view_mode">tree</field>
+	        <field name="view_id" ref="crm.crm_case_tree_view_oppor"/>
+	        <field name="act_window_id" ref="crm_case_category_act_send_post"/>
+	    </record>
+	    
+	    <record model="ir.actions.act_window.view" id="action_crm_form_view_send_post">
+	        <field name="sequence" eval="2"/>
+	        <field name="view_mode">form</field>
+	        <field name="view_id" ref="crm_case_form_view_email"/>
+	        <field name="act_window_id" ref="crm_case_category_act_send_post"/>
+	    </record>
+	    
 	    <menuitem name="Borrador" id="menu_crm_draft_post" parent="base.menu_sales" 
 	    	action="crm_case_category_act_draft_post" sequence="10" />
+	    
 	    <menuitem name="Enviado" id="menu_crm_send_post" parent="base.menu_sales" 
 	    	action="crm_case_category_act_send_post" sequence="20" />
+	    
 	    <menuitem name="Recibido" id="menu_crm_received_post" parent="base.menu_sales" 
 	    	action="crm_case_category_act_received_post" sequence="30" />
 	</data>
